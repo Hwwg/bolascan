@@ -1,0 +1,229 @@
+{
+  "context": "click-BUTTON-按钮-Past Orders-11",
+  "timestamp": "2025-05-24T07:53:47.687Z",
+  "count": 2,
+  "requests": [
+    {
+      "id": "hiauqn6kt6u",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/orders/all?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA",
+        "referer": "http://10.15.196.160:8888/past-orders",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748072957931,
+      "context": "click-BUTTON-按钮-Past Orders-11"
+    },
+    {
+      "id": "uufmv39otct",
+      "requestId": "hiauqn6kt6u",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/orders/all?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sat, 24 May 2025 07:49:18 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748072958060,
+      "context": "click-BUTTON-按钮-Past Orders-11",
+      "size": 2941,
+      "body": "{\"orders\":[{\"id\":15,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"182b9a27-aba7-401e-987a-e2091a313145\",\"created_on\":\"2025-05-07T10:16:46.330422\"},{\"id\":14,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"ebd3a912-307e-45ff-b56e-890702509c95\",\"created_on\":\"2025-05-07T10:15:51.532563\"},{\"id\":13,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"32b0bca0-f642-4503-a05f-2a6ab97d57c8\",\"created_on\":\"2025-05-07T00:49:18.834741\"},{\"id\":12,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"9ab085e6-d0c3-4291-a293-e8b26745b2d4\",\"created_on\":\"2025-05-07T00:48:24.432268\"},{\"id\":11,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"3bada837-f8cb-4471-a17b-316636265560\",\"created_on\":\"2025-05-06T16:59:15.055276\"},{\"id\":10,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"94bfb7df-fd37-4a1c-b3af-0afc8c41a749\",\"created_on\":\"2025-05-03T01:05:03.039645\"},{\"id\":9,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"fedfb859-58a3-40a7-a562-e1960573c201\",\"created_on\":\"2025-05-02T16:30:29.831407\"},{\"id\":8,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"53b76c04-eb76-4050-b6d1-a92c22a4ef52\",\"created_on\":\"2025-05-02T16:28:44.032590\"},{\"id\":7,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"3ad040c7-328e-4a2c-9037-77a816f66cf7\",\"created_on\":\"2025-05-02T16:26:35.021271\"},{\"id\":6,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"36b1b788-988a-46a7-affa-81240e8b4c86\",\"created_on\":\"2025-05-02T06:38:58.121646\"}],\"next_offset\":null,\"previous_offset\":null,\"count\":10}",
+      "jsonData": {
+        "orders": [
+          {
+            "id": 15,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "182b9a27-aba7-401e-987a-e2091a313145",
+            "created_on": "2025-05-07T10:16:46.330422"
+          },
+          {
+            "id": 14,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "ebd3a912-307e-45ff-b56e-890702509c95",
+            "created_on": "2025-05-07T10:15:51.532563"
+          },
+          {
+            "id": 13,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "32b0bca0-f642-4503-a05f-2a6ab97d57c8",
+            "created_on": "2025-05-07T00:49:18.834741"
+          },
+          {
+            "id": 12,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "9ab085e6-d0c3-4291-a293-e8b26745b2d4",
+            "created_on": "2025-05-07T00:48:24.432268"
+          },
+          {
+            "id": 11,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "3bada837-f8cb-4471-a17b-316636265560",
+            "created_on": "2025-05-06T16:59:15.055276"
+          },
+          {
+            "id": 10,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "94bfb7df-fd37-4a1c-b3af-0afc8c41a749",
+            "created_on": "2025-05-03T01:05:03.039645"
+          },
+          {
+            "id": 9,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "fedfb859-58a3-40a7-a562-e1960573c201",
+            "created_on": "2025-05-02T16:30:29.831407"
+          },
+          {
+            "id": 8,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "53b76c04-eb76-4050-b6d1-a92c22a4ef52",
+            "created_on": "2025-05-02T16:28:44.032590"
+          },
+          {
+            "id": 7,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "3ad040c7-328e-4a2c-9037-77a816f66cf7",
+            "created_on": "2025-05-02T16:26:35.021271"
+          },
+          {
+            "id": 6,
+            "user": {
+              "email": "1045225639@qq.com",
+              "number": "15559564603"
+            },
+            "product": {
+              "id": 2,
+              "name": "Wheel",
+              "price": "10.00",
+              "image_url": "images/wheel.svg"
+            },
+            "quantity": 1,
+            "status": "return pending",
+            "transaction_id": "36b1b788-988a-46a7-affa-81240e8b4c86",
+            "created_on": "2025-05-02T06:38:58.121646"
+          }
+        ],
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 10
+      }
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 # HTTP 请求和响应捕获摘要
-生成时间: 5/24/2025, 2:20:59 PM
+生成时间: 5/24/2025, 3:53:47 PM
 
 ## 概述
-- 总请求数: 272
-- 独立端点数: 24
+- 总请求数: 402
+- 独立端点数: 22
 
 ## 按上下文分类
 ### login-process
@@ -22,55 +22,105 @@
 - HTTP方法分布:
   - GET: 8次
 
-### click-BUTTON-按钮-Click here-2
+### click-BUTTON-按钮-Click here-7
 - 请求数量: 2
 - HTTP方法分布:
   - POST: 1次
 
-### click-LI-菜单项-Dashboard-6
+### click-DIV-其他可交互元素-crAPI-19
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Shop-7
+### click-LI-菜单项-Dashboard-22
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-菜单项-Dashboard-23
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-LI-菜单项-Shop-24
 - 请求数量: 6
 - HTTP方法分布:
   - GET: 3次
 
-### click-LI-菜单项-Community-8
+### click-SPAN-菜单项-Shop-25
+- 请求数量: 6
+- HTTP方法分布:
+  - GET: 3次
+
+### click-LI-菜单项-Community-26
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-其他可交互元素-<li class="ant-menu--9
+### click-SPAN-菜单项-Community-27
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
+
+### click-SPAN-其他可交互元素-<span class="ant-ava-40
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-IMG-其他可交互元素-<img src="/static/me-41
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
 
 ### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle
 - 请求数量: 12
 - HTTP方法分布:
   - GET: 6次
 
-### click-LI-菜单项-Dashboard-4
+### click-DIV-其他可交互元素-crAPI-14
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Shop-5
+### click-LI-菜单项-Dashboard-17
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-菜单项-Dashboard-18
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-LI-菜单项-Shop-19
 - 请求数量: 6
 - HTTP方法分布:
   - GET: 3次
 
-### click-LI-菜单项-Community-6
+### click-SPAN-菜单项-Shop-20
+- 请求数量: 6
+- HTTP方法分布:
+  - GET: 3次
+
+### click-LI-菜单项-Community-21
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-其他可交互元素-<li class="ant-menu--7
+### click-SPAN-菜单项-Community-22
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
+
+### click-SPAN-其他可交互元素-<span class="ant-ava-35
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-IMG-其他可交互元素-<img src="/static/me-36
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
 
 ### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop
 - 请求数量: 18
@@ -78,266 +128,546 @@
   - GET: 9次
 
 ### click-DIV-按钮-<div role="button" t-1
-- 请求数量: 10
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 5次
+  - GET: 2次
 
-### click-BUTTON-按钮-Past Orders-3
+### click-SPAN-按钮-<span role="img" ari-2
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-BUTTON-按钮-Past Orders-11
 - 请求数量: 2
 - HTTP方法分布:
   - GET: 1次
 
-### click-BUTTON-按钮-Buy-4
+### click-SPAN-按钮-<span role="img" ari-12
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-SPAN-按钮-Past Orders-15
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-BUTTON-按钮-Buy-16
 - 请求数量: 2
 - HTTP方法分布:
   - POST: 1次
 
-### click-LI-菜单项-Dashboard-12
+### click-SPAN-按钮-<span role="img" ari-17
+- 请求数量: 2
+- HTTP方法分布:
+  - POST: 1次
+
+### click-SPAN-按钮-Buy-20
+- 请求数量: 2
+- HTTP方法分布:
+  - POST: 1次
+
+### click-BUTTON-按钮-Buy-21
+- 请求数量: 2
+- HTTP方法分布:
+  - POST: 1次
+
+### click-SPAN-按钮-<span role="img" ari-22
+- 请求数量: 2
+- HTTP方法分布:
+  - POST: 1次
+
+### click-SPAN-按钮-Buy-25
+- 请求数量: 2
+- HTTP方法分布:
+  - POST: 1次
+
+### click-DIV-其他可交互元素-crAPI-41
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Community-14
+### click-LI-菜单项-Dashboard-44
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-其他可交互元素-<li class="ant-menu--15
+### click-SPAN-菜单项-Dashboard-45
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
+
+### click-LI-菜单项-Community-48
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-菜单项-Community-49
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-<span class="ant-ava-62
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-IMG-其他可交互元素-<img src="/static/me-63
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
 
 ### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum
 - 请求数量: 16
 - HTTP方法分布:
   - GET: 8次
 
-### click-LI-菜单项-Dashboard-8
+### click-DIV-其他可交互元素-crAPI-22
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Shop-9
+### click-LI-菜单项-Dashboard-25
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-菜单项-Dashboard-26
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-LI-菜单项-Shop-27
 - 请求数量: 6
 - HTTP方法分布:
   - GET: 3次
 
-### click-LI-其他可交互元素-<li class="ant-menu--11
-- 请求数量: 4
+### click-SPAN-菜单项-Shop-28
+- 请求数量: 6
 - HTTP方法分布:
-  - GET: 2次
+  - GET: 3次
 
-### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders
-- 请求数量: 16
-- HTTP方法分布:
-  - GET: 8次
-
-### click-BUTTON-按钮-Order Details-2
+### click-SPAN-其他可交互元素-<span class="ant-ava-43
 - 请求数量: 2
 - HTTP方法分布:
   - GET: 1次
 
-### click-LI-菜单项-Dashboard-11
+### click-IMG-其他可交互元素-<img src="/static/me-44
+- 请求数量: 2
+- HTTP方法分布:
+  - GET: 1次
+
+### click-DIV-其他可交互元素-Title 3Posted byRobo-62
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Shop-12
+### click-DIV-其他可交互元素-Title 3Posted byRobo-63
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-菜单项-Community-13
+### click-DIV-其他可交互元素-Title 3-64
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### click-LI-其他可交互元素-<li class="ant-menu--14
+### click-DIV-其他可交互元素-<div class="ant-card-65
 - 请求数量: 4
 - HTTP方法分布:
   - GET: 2次
 
-### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post
-- 请求数量: 12
+### click-SPAN-其他可交互元素-<span class="ant-ava-66
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 6次
+  - GET: 2次
 
-### click-LI-菜单项-Dashboard-5
-- 请求数量: 8
+### click-IMG-其他可交互元素-<img src="/static/me-67
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 4次
+  - GET: 2次
 
-### click-LI-菜单项-Shop-6
-- 请求数量: 10
+### click-DIV-其他可交互元素-Title 3-68
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 5次
+  - GET: 2次
 
-### click-LI-菜单项-Community-7
-- 请求数量: 8
+### click-DIV-其他可交互元素-Title 3-69
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 4次
+  - GET: 2次
 
-### click-LI-其他可交互元素-<li class="ant-menu--8
-- 请求数量: 8
+### click-DIV-其他可交互元素-Posted byRobotPosted-70
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 4次
+  - GET: 2次
 
-### page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15
-- 请求数量: 16
+### click-DIV-其他可交互元素-Posted byRobotPosted-71
+- 请求数量: 4
 - HTTP方法分布:
-  - GET: 8次
+  - GET: 2次
+
+### click-TABLE-其他可交互元素-Posted byRobotPosted-72
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TBODY-其他可交互元素-Posted byRobotPosted-73
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TR-其他可交互元素-Posted byRobotPosted-74
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TD-其他可交互元素-Posted byRobot-75
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Posted byRobot-76
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-Posted by-77
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-Robot-78
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TD-其他可交互元素-Posted onThu May 01 -79
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Posted onThu May 01 -80
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-Posted on-81
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-Thu May 01 2025-82
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-ARTICLE-其他可交互元素-Hello world 3-83
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Hello world 3-84
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Title 2Posted byPogb-86
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Title 2Posted byPogb-87
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Title 2-88
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-<div class="ant-card-89
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-SPAN-其他可交互元素-<span class="ant-ava-90
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-IMG-其他可交互元素-<img src="/static/me-91
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Title 2-92
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Title 2-93
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Posted byPogbaPosted-94
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Posted byPogbaPosted-95
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TABLE-其他可交互元素-Posted byPogbaPosted-96
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TBODY-其他可交互元素-Posted byPogbaPosted-97
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TR-其他可交互元素-Posted byPogbaPosted-98
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-TD-其他可交互元素-Posted byPogba-99
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
+
+### click-DIV-其他可交互元素-Posted byPogba-100
+- 请求数量: 4
+- HTTP方法分布:
+  - GET: 2次
 
 ## 主要API端点
-### 1. GET /identity/api/v2/user/dashboard (调用19次)
-- 调用上下文:
-  - login-process: 2次
-  - click-LI-菜单项-Dashboard-5: 2次
-  - click-LI-其他可交互元素-<li class="ant-menu--8: 2次
-  - login-verification: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - click-LI-菜单项-Dashboard-6: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--9: 1次
-  - click-LI-菜单项-Dashboard-4: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--7: 1次
-  - click-DIV-按钮-<div role="button" t-1: 1次
-  - click-LI-菜单项-Dashboard-12: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--15: 1次
-  - click-LI-菜单项-Dashboard-8: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--11: 1次
-  - click-LI-菜单项-Dashboard-11: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--14: 1次
-- 常见请求头:
-  - content-type: application/json
-  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw
-
-### 2. GET /identity/api/v2/vehicle/vehicles (调用18次)
-- 调用上下文:
-  - click-LI-菜单项-Dashboard-5: 2次
-  - click-LI-其他可交互元素-<li class="ant-menu--8: 2次
-  - login-process: 1次
-  - login-verification: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - click-LI-菜单项-Dashboard-6: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--9: 1次
-  - click-LI-菜单项-Dashboard-4: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--7: 1次
-  - click-DIV-按钮-<div role="button" t-1: 1次
-  - click-LI-菜单项-Dashboard-12: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--15: 1次
-  - click-LI-菜单项-Dashboard-8: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--11: 1次
-  - click-LI-菜单项-Dashboard-11: 1次
-  - click-LI-其他可交互元素-<li class="ant-menu--14: 1次
-- 常见请求头:
-  - content-type: application/json
-  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw
-
-### 3. GET /static/media/default_profile_pic.24d66af2.png (调用16次)
+### 1. GET /static/media/default_profile_pic.24d66af2.png (调用59次)
 - 调用上下文:
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 2次
-  - click-LI-菜单项-Community-7: 2次
   - login-process: 1次
   - login-verification: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - click-LI-菜单项-Community-8: 1次
+  - click-LI-菜单项-Community-26: 1次
+  - click-SPAN-菜单项-Community-27: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-40: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-41: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
-  - click-LI-菜单项-Community-6: 1次
+  - click-LI-菜单项-Community-21: 1次
+  - click-SPAN-菜单项-Community-22: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-35: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-36: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - click-LI-菜单项-Community-14: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - click-LI-菜单项-Community-13: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
+  - click-LI-菜单项-Community-48: 1次
+  - click-SPAN-菜单项-Community-49: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-62: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-63: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-43: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-44: 1次
+  - click-DIV-其他可交互元素-Title 3Posted byRobo-62: 1次
+  - click-DIV-其他可交互元素-Title 3Posted byRobo-63: 1次
+  - click-DIV-其他可交互元素-Title 3-64: 1次
+  - click-DIV-其他可交互元素-<div class="ant-card-65: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-66: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-67: 1次
+  - click-DIV-其他可交互元素-Title 3-68: 1次
+  - click-DIV-其他可交互元素-Title 3-69: 1次
+  - click-DIV-其他可交互元素-Posted byRobotPosted-70: 1次
+  - click-DIV-其他可交互元素-Posted byRobotPosted-71: 1次
+  - click-TABLE-其他可交互元素-Posted byRobotPosted-72: 1次
+  - click-TBODY-其他可交互元素-Posted byRobotPosted-73: 1次
+  - click-TR-其他可交互元素-Posted byRobotPosted-74: 1次
+  - click-TD-其他可交互元素-Posted byRobot-75: 1次
+  - click-DIV-其他可交互元素-Posted byRobot-76: 1次
+  - click-SPAN-其他可交互元素-Posted by-77: 1次
+  - click-SPAN-其他可交互元素-Robot-78: 1次
+  - click-TD-其他可交互元素-Posted onThu May 01 -79: 1次
+  - click-DIV-其他可交互元素-Posted onThu May 01 -80: 1次
+  - click-SPAN-其他可交互元素-Posted on-81: 1次
+  - click-SPAN-其他可交互元素-Thu May 01 2025-82: 1次
+  - click-ARTICLE-其他可交互元素-Hello world 3-83: 1次
+  - click-DIV-其他可交互元素-Hello world 3-84: 1次
+  - click-DIV-其他可交互元素-Title 2Posted byPogb-86: 1次
+  - click-DIV-其他可交互元素-Title 2Posted byPogb-87: 1次
+  - click-DIV-其他可交互元素-Title 2-88: 1次
+  - click-DIV-其他可交互元素-<div class="ant-card-89: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-90: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-91: 1次
+  - click-DIV-其他可交互元素-Title 2-92: 1次
+  - click-DIV-其他可交互元素-Title 2-93: 1次
+  - click-DIV-其他可交互元素-Posted byPogbaPosted-94: 1次
+  - click-DIV-其他可交互元素-Posted byPogbaPosted-95: 1次
+  - click-TABLE-其他可交互元素-Posted byPogbaPosted-96: 1次
+  - click-TBODY-其他可交互元素-Posted byPogbaPosted-97: 1次
+  - click-TR-其他可交互元素-Posted byPogbaPosted-98: 1次
+  - click-TD-其他可交互元素-Posted byPogba-99: 1次
+  - click-DIV-其他可交互元素-Posted byPogba-100: 1次
 - 常见请求头:
 
-### 4. GET /static/css/2.07102e08.chunk.css (调用9次)
+### 2. GET /community/api/v2/community/posts/cWWKLHVCzQCqAtSn2fV9LX (调用23次)
 - 调用上下文:
-  - login-process: 1次
+  - click-DIV-其他可交互元素-Title 3Posted byRobo-62: 1次
+  - click-DIV-其他可交互元素-Title 3Posted byRobo-63: 1次
+  - click-DIV-其他可交互元素-Title 3-64: 1次
+  - click-DIV-其他可交互元素-<div class="ant-card-65: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-66: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-67: 1次
+  - click-DIV-其他可交互元素-Title 3-68: 1次
+  - click-DIV-其他可交互元素-Title 3-69: 1次
+  - click-DIV-其他可交互元素-Posted byRobotPosted-70: 1次
+  - click-DIV-其他可交互元素-Posted byRobotPosted-71: 1次
+  - click-TABLE-其他可交互元素-Posted byRobotPosted-72: 1次
+  - click-TBODY-其他可交互元素-Posted byRobotPosted-73: 1次
+  - click-TR-其他可交互元素-Posted byRobotPosted-74: 1次
+  - click-TD-其他可交互元素-Posted byRobot-75: 1次
+  - click-DIV-其他可交互元素-Posted byRobot-76: 1次
+  - click-SPAN-其他可交互元素-Posted by-77: 1次
+  - click-SPAN-其他可交互元素-Robot-78: 1次
+  - click-TD-其他可交互元素-Posted onThu May 01 -79: 1次
+  - click-DIV-其他可交互元素-Posted onThu May 01 -80: 1次
+  - click-SPAN-其他可交互元素-Posted on-81: 1次
+  - click-SPAN-其他可交互元素-Thu May 01 2025-82: 1次
+  - click-ARTICLE-其他可交互元素-Hello world 3-83: 1次
+  - click-DIV-其他可交互元素-Hello world 3-84: 1次
+- 常见请求头:
+  - content-type: application/json
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
+
+### 3. GET /identity/api/v2/user/dashboard (调用18次)
+- 调用上下文:
+  - login-process: 2次
   - login-verification: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
-- 常见请求头:
-
-### 5. GET /static/css/main.4ac450fe.chunk.css (调用9次)
-- 调用上下文:
-  - login-process: 1次
-  - login-verification: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
-- 常见请求头:
-
-### 6. GET /static/js/2.b8091b3e.chunk.js (调用9次)
-- 调用上下文:
-  - login-process: 1次
-  - login-verification: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
-- 常见请求头:
-
-### 7. GET /static/js/main.8115eeff.chunk.js (调用9次)
-- 调用上下文:
-  - login-process: 1次
-  - login-verification: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
-- 常见请求头:
-
-### 8. GET /workshop/api/shop/products (调用8次)
-- 调用上下文:
-  - click-LI-菜单项-Shop-6: 2次
-  - click-LI-菜单项-Shop-7: 1次
-  - click-LI-菜单项-Shop-5: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - click-LI-菜单项-Shop-9: 1次
+  - click-DIV-其他可交互元素-crAPI-19: 1次
+  - click-LI-菜单项-Dashboard-22: 1次
+  - click-SPAN-菜单项-Dashboard-23: 1次
+  - click-DIV-其他可交互元素-crAPI-14: 1次
+  - click-LI-菜单项-Dashboard-17: 1次
+  - click-SPAN-菜单项-Dashboard-18: 1次
   - click-DIV-按钮-<div role="button" t-1: 1次
-  - click-LI-菜单项-Shop-12: 1次
+  - click-SPAN-按钮-<span role="img" ari-2: 1次
+  - click-DIV-其他可交互元素-crAPI-41: 1次
+  - click-LI-菜单项-Dashboard-44: 1次
+  - click-SPAN-菜单项-Dashboard-45: 1次
+  - click-DIV-其他可交互元素-crAPI-22: 1次
+  - click-LI-菜单项-Dashboard-25: 1次
+  - click-SPAN-菜单项-Dashboard-26: 1次
+- 常见请求头:
+  - content-type: application/json
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
+
+### 4. GET /identity/api/v2/vehicle/vehicles (调用17次)
+- 调用上下文:
+  - login-process: 1次
+  - login-verification: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
+  - click-DIV-其他可交互元素-crAPI-19: 1次
+  - click-LI-菜单项-Dashboard-22: 1次
+  - click-SPAN-菜单项-Dashboard-23: 1次
+  - click-DIV-其他可交互元素-crAPI-14: 1次
+  - click-LI-菜单项-Dashboard-17: 1次
+  - click-SPAN-菜单项-Dashboard-18: 1次
+  - click-DIV-按钮-<div role="button" t-1: 1次
+  - click-SPAN-按钮-<span role="img" ari-2: 1次
+  - click-DIV-其他可交互元素-crAPI-41: 1次
+  - click-LI-菜单项-Dashboard-44: 1次
+  - click-SPAN-菜单项-Dashboard-45: 1次
+  - click-DIV-其他可交互元素-crAPI-22: 1次
+  - click-LI-菜单项-Dashboard-25: 1次
+  - click-SPAN-菜单项-Dashboard-26: 1次
+- 常见请求头:
+  - content-type: application/json
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
+
+### 5. GET /community/api/v2/community/posts/MyihXBGgo8iEoUQqQ62TB (调用15次)
+- 调用上下文:
+  - click-DIV-其他可交互元素-Title 2Posted byPogb-86: 1次
+  - click-DIV-其他可交互元素-Title 2Posted byPogb-87: 1次
+  - click-DIV-其他可交互元素-Title 2-88: 1次
+  - click-DIV-其他可交互元素-<div class="ant-card-89: 1次
+  - click-SPAN-其他可交互元素-<span class="ant-ava-90: 1次
+  - click-IMG-其他可交互元素-<img src="/static/me-91: 1次
+  - click-DIV-其他可交互元素-Title 2-92: 1次
+  - click-DIV-其他可交互元素-Title 2-93: 1次
+  - click-DIV-其他可交互元素-Posted byPogbaPosted-94: 1次
+  - click-DIV-其他可交互元素-Posted byPogbaPosted-95: 1次
+  - click-TABLE-其他可交互元素-Posted byPogbaPosted-96: 1次
+  - click-TBODY-其他可交互元素-Posted byPogbaPosted-97: 1次
+  - click-TR-其他可交互元素-Posted byPogbaPosted-98: 1次
+  - click-TD-其他可交互元素-Posted byPogba-99: 1次
+  - click-DIV-其他可交互元素-Posted byPogba-100: 1次
+- 常见请求头:
+  - content-type: application/json
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
+
+### 6. GET /workshop/api/shop/products (调用7次)
+- 调用上下文:
+  - click-LI-菜单项-Shop-24: 1次
+  - click-SPAN-菜单项-Shop-25: 1次
+  - click-LI-菜单项-Shop-19: 1次
+  - click-SPAN-菜单项-Shop-20: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
+  - click-LI-菜单项-Shop-27: 1次
+  - click-SPAN-菜单项-Shop-28: 1次
 - 查询参数:
   - limit
   - offset
 - 常见请求头:
   - content-type: application/json
-  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
 
-### 9. GET /images/seat.svg (调用8次)
+### 7. GET /images/wheel.svg (调用7次)
 - 调用上下文:
-  - click-LI-菜单项-Shop-6: 2次
-  - click-LI-菜单项-Shop-7: 1次
-  - click-LI-菜单项-Shop-5: 1次
+  - click-LI-菜单项-Shop-24: 1次
+  - click-SPAN-菜单项-Shop-25: 1次
+  - click-LI-菜单项-Shop-19: 1次
+  - click-SPAN-菜单项-Shop-20: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - click-LI-菜单项-Shop-9: 1次
-  - click-DIV-按钮-<div role="button" t-1: 1次
-  - click-LI-菜单项-Shop-12: 1次
+  - click-LI-菜单项-Shop-27: 1次
+  - click-SPAN-菜单项-Shop-28: 1次
 - 常见请求头:
 
-### 10. GET /images/wheel.svg (调用7次)
+### 8. GET /images/seat.svg (调用7次)
 - 调用上下文:
-  - click-LI-菜单项-Shop-7: 1次
-  - click-LI-菜单项-Shop-5: 1次
+  - click-LI-菜单项-Shop-24: 1次
+  - click-SPAN-菜单项-Shop-25: 1次
+  - click-LI-菜单项-Shop-19: 1次
+  - click-SPAN-菜单项-Shop-20: 1次
   - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
-  - click-LI-菜单项-Shop-9: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders: 1次
-  - click-LI-菜单项-Shop-6: 1次
-  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15: 1次
+  - click-LI-菜单项-Shop-27: 1次
+  - click-SPAN-菜单项-Shop-28: 1次
+- 常见请求头:
+
+### 9. GET /community/api/v2/community/posts/recent (调用7次)
+- 调用上下文:
+  - click-LI-菜单项-Community-26: 1次
+  - click-SPAN-菜单项-Community-27: 1次
+  - click-LI-菜单项-Community-21: 1次
+  - click-SPAN-菜单项-Community-22: 1次
+  - click-LI-菜单项-Community-48: 1次
+  - click-SPAN-菜单项-Community-49: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
+- 查询参数:
+  - limit
+  - offset
+- 常见请求头:
+  - content-type: application/json
+  - authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA
+
+### 10. GET /static/css/2.07102e08.chunk.css (调用6次)
+- 调用上下文:
+  - login-process: 1次
+  - login-verification: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop: 1次
+  - page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum: 1次
 - 常见请求头:
 
 ## 如何使用此数据

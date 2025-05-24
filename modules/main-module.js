@@ -1,3 +1,5 @@
+const { cssPath } = require('css-path');
+
 class MainModule {
     constructor(options) {
         this.options = options;
@@ -138,19 +140,37 @@ class MainModule {
             }
             console.log(`[MainModule] 开始分析页面元素...`);
             const htmlContent = await this.pageWrapper.evaluatePage('document.documentElement.outerHTML');
-            let elements = await this.elementDetector.detectStaticElements(this.pageWrapper);
-            console.log(`[MainModule] 检测到 ${elements.length} 个静态元素`);
             
-            // 获取LLM检测的元素（现在返回的是数组）
-            const llmElements = await this.elementDetector.detectWithLLM(htmlContent);
-            console.log(`[MainModule] 通过LLM额外检测到 ${llmElements ? llmElements.length : 0} 个元素`);
+            // 获取页面上所有元素的CSS选择器
+            let allElements = await this._getAllCssSelectors(this.pageWrapper.page);
+            console.log(`[MainModule] 获取到 ${allElements.length} 个页面元素的CSS选择器`);
             
-            // 安全地合并数组
-            elements = elements.concat(llmElements || []);
+            // 过滤出可能是交互式的元素
+            let elements = allElements.filter(item => item.isInteractive || this._isLikelyInteractive(item));
+            console.log(`[MainModule] 从中筛选出 ${elements.length} 个潜在可交互元素`);
+            
+            // 将CSS选择器转换为元素检测器期望的格式
+            elements = elements.map(item => ({
+                selector: item.selector,
+                tag: item.tag,
+                text: item.text,
+                isVisible: item.isVisible,
+                type: this._determineElementType(item)  // 添加一个辅助方法来确定元素类型
+            }));
+            
+            // 我们仍然使用元素检测器的过滤和优先级功能
             elements = this.elementDetector.filterDuplicates(elements);
             elements = this.elementDetector.prioritizeElements(elements);
-            const categories = this.elementDetector.categorizeElements(elements);
-            console.log(`[MainModule] 元素分类统计: 按钮(${categories.button.length}), 链接(${categories.link.length}), 表单(${categories.form.length}), 其他(${categories.other.length})`);
+            // 对元素进行自定义分类
+            const categories = {
+                button: elements.filter(e => e.type === 'button'),
+                link: elements.filter(e => e.type === 'link'),
+                form: elements.filter(e => e.type === 'form'),
+                container: elements.filter(e => e.type === 'container'),
+                other: elements.filter(e => e.type === 'other')
+            };
+            
+            console.log(`[MainModule] 元素分类统计: 按钮(${categories.button.length}), 链接(${categories.link.length}), 表单(${categories.form.length}), 容器(${categories.container.length}), 其他(${categories.other.length})`);
             const clickResults = [];
             const jumpUrls = [];
             const currentHost = (new URL(url)).host;
@@ -306,39 +326,65 @@ class MainModule {
             let elementType = '未知类型';
             try {
                 if (element && element.selector) {
-                    // 使用selector来查找元素
-                    const elementInfo = await this.pageWrapper.page.evaluate((selectorHtml) => {
-                        try {
-                            // 创建临时元素来寻找匹配
-                            const tempDiv = document.createElement('div');
-                            tempDiv.innerHTML = selectorHtml;
-                            const tempEl = tempDiv.firstChild;
-                            
-                            // 尝试查找匹配的元素
-                            const matchedElements = document.querySelectorAll(tempEl.tagName);
-                            for (const el of matchedElements) {
-                                if (el.outerHTML === selectorHtml) {
-                                    return {
-                                        text: el.textContent || el.innerText || el.outerHTML.slice(0, 50) + '...',
-                                        type: el.tagName
-                                    };
-                                }
-                            }
-                            
-                            // 如果没找到精确匹配，返回临时元素的信息
-                            return {
-                                text: tempEl.textContent || tempEl.innerText || tempEl.outerHTML.slice(0, 50) + '...',
-                                type: tempEl.tagName
-                            };
-                        } catch (err) {
-                            return { text: '提取元素文本出错', type: '未知' };
-                        }
-                    }, element.selector);
+                    // 判断是CSS选择器还是HTML选择器
+                    const isHtmlSelector = element.selector.trim().startsWith('<');
                     
-                    elementText = elementInfo.text;
-                    elementType = elementInfo.type;
+                    if (isHtmlSelector) {
+                        // 旧的HTML选择器处理方式
+                        const elementInfo = await this.pageWrapper.page.evaluate((selectorHtml) => {
+                            try {
+                                const tempDiv = document.createElement('div');
+                                tempDiv.innerHTML = selectorHtml;
+                                const tempEl = tempDiv.firstChild;
+                                
+                                if (!tempEl) return { text: '无效HTML', type: '未知' };
+                                
+                                // 尝试查找匹配的元素
+                                const matchedElements = document.querySelectorAll(tempEl.tagName);
+                                for (const el of matchedElements) {
+                                    if (el.outerHTML === selectorHtml) {
+                                        return {
+                                            text: el.textContent || el.innerText || el.outerHTML.slice(0, 50) + '...',
+                                            type: el.tagName
+                                        };
+                                    }
+                                }
+                                
+                                // 如果没找到精确匹配，返回临时元素的信息
+                                return {
+                                    text: tempEl.textContent || tempEl.innerText || tempEl.outerHTML.slice(0, 50) + '...',
+                                    type: tempEl.tagName
+                                };
+                            } catch (err) {
+                                return { text: '提取元素文本出错', type: '未知' };
+                            }
+                        }, element.selector);
+                        
+                        elementText = elementInfo.text;
+                        elementType = elementInfo.type;
+                    } else {
+                        // 新的CSS选择器处理方式
+                        const elementInfo = await this.pageWrapper.page.evaluate((cssSelector) => {
+                            try {
+                                const targetElement = document.querySelector(cssSelector);
+                                if (targetElement) {
+                                    return {
+                                        text: targetElement.textContent || targetElement.innerText || targetElement.outerHTML.slice(0, 50) + '...',
+                                        type: targetElement.tagName
+                                    };
+                                } else {
+                                    return { text: '元素不存在', type: '未知' };
+                                }
+                            } catch (err) {
+                                return { text: '提取元素文本出错', type: '未知' };
+                            }
+                        }, element.selector);
+                        
+                        elementText = elementInfo.text;
+                        elementType = elementInfo.type;
+                    }
                 } else if (element && element.text) {
-                    // 如果元素对象本身有text属性
+                    // 如果元素对象本身有text属性（来自新的_getAllCssSelectors方法）
                     elementText = element.text;
                     elementType = element.tag || '未知类型';
                 }
@@ -615,6 +661,270 @@ class MainModule {
             clickResults.push({ element: formElement, submitResult });
             console.log(`[MainModule] 表单处理完成，保存结果`);
         }
+    }
+
+    /**
+     * 获取页面上所有潜在可点击元素的CSS选择器（高质量唯一选择器，模拟DevTools能力）
+     * @param {Object} page - Puppeteer页面实例
+     * @returns {Promise<Array>} - 返回CSS选择器数组
+     */
+    async _getAllCssSelectors(page) {
+        console.log(`[MainModule] 开始获取页面所有CSS选择器（高质量模式）...`);
+        
+        try {
+            // 在页面中执行脚本，生成高质量CSS选择器
+            const results = await page.evaluate(() => {
+                // 定义一个内部函数来生成CSS路径（模拟DevTools "Copy Selector"）
+                function generateCssPath(element) {
+                    if (!element) return null;
+                    
+                    // 如果有ID，直接使用ID（最高优先级）
+                    if (element.id) {
+                        const idSelector = `#${element.id}`;
+                        // 验证ID选择器的唯一性
+                        if (document.querySelectorAll(idSelector).length === 1) {
+                            return idSelector;
+                        }
+                    }
+                    
+                    // 构建完整路径
+                    const path = [];
+                    let current = element;
+                    
+                    while (current && current !== document && current !== document.documentElement) {
+                        let selector = current.tagName.toLowerCase();
+                        
+                        // 添加类名（如果有）
+                        if (current.className && typeof current.className === 'string') {
+                            const classes = current.className.trim().split(/\s+/)
+                                .filter(cls => cls.length > 0 && !cls.includes(' '))
+                                .join('.');
+                            if (classes) {
+                                selector += '.' + classes;
+                            }
+                        }
+                        
+                        // 检查在父级中的唯一性
+                        if (current.parentElement) {
+                            const siblings = Array.from(current.parentElement.children);
+                            const sameTagSiblings = siblings.filter(sibling => 
+                                sibling.tagName.toLowerCase() === current.tagName.toLowerCase()
+                            );
+                            
+                            // 如果同类型兄弟节点多于1个，需要添加nth-child
+                            if (sameTagSiblings.length > 1) {
+                                const index = siblings.indexOf(current) + 1;
+                                selector += `:nth-child(${index})`;
+                            }
+                            
+                            // 验证当前级别的选择器唯一性
+                            try {
+                                const testPath = path.length > 0 ? 
+                                    selector + ' > ' + path.join(' > ') : 
+                                    selector;
+                                const matches = current.parentElement.querySelectorAll(`:scope > ${selector}`);
+                                if (matches.length !== 1 || matches[0] !== current) {
+                                    // 如果仍不唯一，强制使用nth-child
+                                    const index = siblings.indexOf(current) + 1;
+                                    selector = selector.replace(/:nth-child\(\d+\)/, '') + `:nth-child(${index})`;
+                                }
+                            } catch (e) {
+                                // 如果查询失败，保留原选择器
+                            }
+                        }
+                        
+                        path.unshift(selector);
+                        current = current.parentElement;
+                        
+                        // 避免无限循环
+                        if (path.length > 20) break;
+                    }
+                    
+                    return path.join(' > ');
+                }
+                
+                // 获取所有元素并生成选择器
+                const allElements = document.querySelectorAll('*');
+                const results = [];
+                let debugCount = 0;
+                
+                for (const element of allElements) {
+                    try {
+                        const selector = generateCssPath(element);
+                        if (selector) {
+                            // 验证选择器的唯一性
+                            const matchedElements = document.querySelectorAll(selector);
+                            const isUnique = matchedElements.length === 1 && matchedElements[0] === element;
+                            
+                            if (isUnique) {
+                                // 检查元素的基本属性
+                                const style = window.getComputedStyle(element);
+                                const isVisible = element.offsetWidth > 0 && 
+                                                element.offsetHeight > 0 && 
+                                                style.display !== 'none' && 
+                                                style.visibility !== 'hidden';
+                                
+                                // 检查是否可能是交互式元素
+                                const interactiveTags = ['A', 'BUTTON', 'INPUT', 'SELECT', 'TEXTAREA', 'LABEL', 'SUMMARY'];
+                                let isInteractive = interactiveTags.includes(element.tagName);
+                                
+                                if (!isInteractive) {
+                                    const role = element.getAttribute('role');
+                                    if (role && ['button', 'link', 'menuitem', 'tab', 'checkbox', 'radio', 'switch', 'menu', 'menubar', 'option'].includes(role.toLowerCase())) {
+                                        isInteractive = true;
+                                    }
+                                }
+                                
+                                if (!isInteractive) {
+                                    if (style.cursor === 'pointer') isInteractive = true;
+                                }
+                                
+                                if (!isInteractive) {
+                                    const hasEventHandler = element.hasAttribute('onclick') || 
+                                                          element.hasAttribute('ng-click') || 
+                                                          element.hasAttribute('@click') || 
+                                                          element.hasAttribute('v-on:click') || 
+                                                          element.hasAttribute('data-toggle');
+                                    if (hasEventHandler) isInteractive = true;
+                                }
+                                
+                                // 调试信息：特别关注ant-menu相关元素
+                                if (selector.includes('ant-menu') && debugCount < 5) {
+                                    console.log(`[DEBUG] Ant Menu Element - Selector: ${selector}, Tag: ${element.tagName}, Classes: ${element.className}, Text: "${element.textContent?.trim().substring(0, 30)}"`, element);
+                                    debugCount++;
+                                }
+                                
+                                results.push({
+                                    selector: selector,
+                                    tag: element.tagName,
+                                    text: (element.textContent || '').trim().substring(0, 50),
+                                    isVisible: isVisible,
+                                    isInteractive: isInteractive
+                                });
+                            } else {
+                                // 调试：记录不唯一的选择器
+                                if (selector.includes('ant-menu') && debugCount < 10) {
+                                    console.warn(`[DEBUG] Non-unique selector: ${selector}, matched ${matchedElements.length} elements`);
+                                    debugCount++;
+                                }
+                            }
+                        }
+                    } catch (err) {
+                        // 单个元素失败不影响整体
+                        if (element.className && element.className.includes('ant-menu')) {
+                            console.error(`[DEBUG] Error processing ant-menu element:`, err, element);
+                        }
+                    }
+                }
+                
+                return results;
+            });
+            
+            console.log(`[MainModule] 获取到 ${results.length} 个元素的高质量CSS选择器`);
+            return results;
+        } catch (error) {
+            console.error(`[MainModule] 获取CSS选择器时出错:`, error);
+            return [];
+        }
+    }
+    
+    /**
+     * 根据元素的特征确定其类型（按钮、链接、表单等）
+     * @param {Object} element - 元素对象
+     * @returns {string} - 元素类型
+     */
+    _determineElementType(element) {
+        if (!element) return 'other';
+        
+        const tag = (element.tag || '').toLowerCase();
+        const selector = (element.selector || '').toLowerCase();
+        const text = (element.text || '').trim();
+        
+        // 按钮类型元素
+        if (tag === 'button' || 
+            /button|btn|submit|reset|toggle/i.test(selector) || 
+            /^\s*[\u4e00-\u9fa5]*[提交|确定|保存|确认|取消|登录][\u4e00-\u9fa5]*\s*$/i.test(text) ||
+            /[role="button"]/i.test(selector)) {
+            return 'button';
+        }
+        
+        // 链接类型元素
+        if (tag === 'a' || 
+            /href=/i.test(selector) || 
+            /link|nav-item|menu-item/i.test(selector) || 
+            /[role="link"|"menuitem"]/i.test(selector)) {
+            return 'link';
+        }
+        
+        // 表单相关元素
+        if (/input|select|textarea|form|checkbox|radio|switch|dropdown/i.test(tag) || 
+            /input|select|textarea|form|checkbox|radio|switch|dropdown/i.test(selector)) {
+            return 'form';
+        }
+        
+        // 文章、卡片、面板等容器元素
+        if (/card|post|article|panel|tile|item/i.test(selector) ||
+            /ant-card|ant-list-item|ant-collapse-item/i.test(selector)) {
+            return 'container';
+        }
+        
+        // 未能确定类型的元素
+        return 'other';
+    }
+    
+    /**
+     * 根据元素的特征判断是否可能是交互式元素
+     * @param {Object} element - 元素对象
+     * @returns {boolean} - 是否可能是交互式元素
+     */
+    _isLikelyInteractive(element) {
+        if (!element) return false;
+        
+        const tag = (element.tag || '').toUpperCase();
+        const selector = (element.selector || '').toLowerCase();
+        const text = (element.text || '').trim();
+        
+        // 检查类名中的提示词
+        const interactiveClassPatterns = [
+            'btn', 'button', 'link', 'nav', 'menu', 'click', 'select',
+            'dropdown', 'tab', 'item', 'option', 'trigger', 'toggle', 'control',
+            'ant-', 'mui', 'el-', 'mat-', 'interactive', 'action', 'active',
+            'expand', 'collapse', 'submit', 'cancel', 'confirm', 'delete',
+            'edit', 'save', 'add', 'remove', 'open', 'close', 'show', 'hide',
+            'switch', 'checkbox', 'radio', 'slider', 'card'
+        ];
+        
+        if (interactiveClassPatterns.some(pattern => selector.includes(pattern))) {
+            return true;
+        }
+        
+        // 常见的可点击文本模式
+        const clickableTextPatterns = [
+            '登录', '注册', '提交', '确定', '取消', '确认', '发送', '保存', 
+            '删除', '编辑', '修改', '查看', '详情', '更多', '下一步', '上一步',
+            '继续', '完成', '返回', '关闭', '打开', '展开', '收起'
+        ];
+        
+        if (clickableTextPatterns.some(pattern => text.includes(pattern))) {
+            return true;
+        }
+        
+        // li元素通常是菜单项
+        if (tag === 'LI' && /menu|nav|list|item/i.test(selector)) {
+            return true;
+        }
+        
+        // 特定的组件命名模式
+        if (/ant-menu-item|el-menu-item|mui-item|li\.ant-menu-overflow-item/i.test(selector)) {
+            return true;
+        }
+        
+        // 特定的属性模式
+        if (/href|ng-click|@click|v-on:click|onclick|data-action|data-target|data-toggle/i.test(selector)) {
+            return true;
+        }
+        
+        return false;
     }
 }
 

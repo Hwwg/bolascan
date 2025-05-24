@@ -1,0 +1,58 @@
+{
+  "context": "click-BUTTON-按钮-Click here-7",
+  "timestamp": "2025-05-24T07:53:47.684Z",
+  "count": 2,
+  "requests": [
+    {
+      "id": "i93sm9pras",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/resend_email",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA",
+        "referer": "http://10.15.196.160:8888/dashboard",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748072788719,
+      "context": "click-BUTTON-按钮-Click here-7"
+    },
+    {
+      "id": "5eq2mdfhes3",
+      "requestId": "i93sm9pras",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/resend_email",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sat, 24 May 2025 07:46:28 GMT",
+        "expires": "0",
+        "keep-alive": "timeout=4",
+        "pragma": "no-cache",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+      },
+      "method": "POST",
+      "contentType": "application/json",
+      "timestamp": 1748072788794,
+      "context": "click-BUTTON-按钮-Click here-7",
+      "size": 184,
+      "body": "{\"message\":\"Your newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal. \",\"status\":200}",
+      "jsonData": {
+        "message": "Your newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal. ",
+        "status": 200
+      }
+    }
+  ]
+}

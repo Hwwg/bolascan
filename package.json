@@ -12,6 +12,8 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^13.1.0",
+    "css-path": "^1.0.1",
+    "css-selector-generator": "^3.6.9",
     "openai": "^4.98.0",
     "puppeteer": "^24.8.2",
     "yargs-parser": "^21.1.1"

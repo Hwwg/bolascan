@@ -98,17 +98,17 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Dashboard-6": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
-        "click-LI-菜单项-Dashboard-4": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
-        "click-LI-菜单项-Dashboard-12": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-14": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--17": 1,
         "click-LI-菜单项-Dashboard-8": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
         "click-LI-菜单项-Dashboard-11": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
-        "click-LI-菜单项-Dashboard-5": 2,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1
       }
     },
     "/static/media/default_profile_pic.24d66af2.png": {
@@ -122,15 +122,15 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Community-8": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
-        "click-LI-菜单项-Community-6": 1,
+        "click-LI-菜单项-Community-7": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
-        "click-LI-菜单项-Community-14": 1,
+        "click-LI-菜单项-Community-16": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
         "click-LI-菜单项-Community-13": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
-        "click-LI-菜单项-Community-7": 2,
-        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1,
+        "click-LI-菜单项-Community-6": 1
       }
     },
     "/identity/api/v2/vehicle/vehicles": {
@@ -144,17 +144,17 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Dashboard-6": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
-        "click-LI-菜单项-Dashboard-4": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
-        "click-LI-菜单项-Dashboard-12": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-14": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--17": 1,
         "click-LI-菜单项-Dashboard-8": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
         "click-LI-菜单项-Dashboard-11": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
-        "click-LI-菜单项-Dashboard-5": 2,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1
       }
     },
     "/dashboard": {
@@ -182,12 +182,12 @@
       },
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
         "click-LI-菜单项-Shop-12": 1,
-        "click-LI-菜单项-Shop-6": 2
+        "click-LI-菜单项-Shop-5": 1
       }
     },
     "/images/wheel.svg": {
@@ -197,11 +197,10 @@
       },
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
-        "click-LI-菜单项-Shop-6": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
       }
     },
@@ -212,12 +211,12 @@
       },
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
         "click-LI-菜单项-Shop-12": 1,
-        "click-LI-菜单项-Shop-6": 2
+        "click-LI-菜单项-Shop-5": 1
       }
     },
     "/community/api/v2/community/posts/recent": {
@@ -227,11 +226,11 @@
       },
       "contexts": {
         "click-LI-菜单项-Community-8": 1,
-        "click-LI-菜单项-Community-6": 1,
-        "click-LI-菜单项-Community-14": 1,
+        "click-LI-菜单项-Community-7": 2,
+        "click-LI-菜单项-Community-16": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
         "click-LI-菜单项-Community-13": 1,
-        "click-LI-菜单项-Community-7": 2
+        "click-LI-菜单项-Community-6": 1
       }
     },
     "/verify-vehicle": {
@@ -298,6 +297,24 @@
       "contexts": {
         "click-BUTTON-按钮-Order Details-2": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/workshop/api/shop/orders/return_order": {
+      "count": 1,
+      "methods": {
+        "POST": 1
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Return-4": 1
+      }
+    },
+    "/workshop/api/shop/return_qr_code": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Return-4": 1
       }
     },
     "/new-post": {
@@ -515,17 +532,17 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Dashboard-6": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
-        "click-LI-菜单项-Dashboard-4": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
-        "click-LI-菜单项-Dashboard-12": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-14": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--17": 1,
         "click-LI-菜单项-Dashboard-8": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
         "click-LI-菜单项-Dashboard-11": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
-        "click-LI-菜单项-Dashboard-5": 2,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1
       },
       "params": [],
       "headers": {
@@ -533,7 +550,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -564,15 +581,15 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Community-8": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
-        "click-LI-菜单项-Community-6": 1,
+        "click-LI-菜单项-Community-7": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
-        "click-LI-菜单项-Community-14": 1,
+        "click-LI-菜单项-Community-16": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
         "click-LI-菜单项-Community-13": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
-        "click-LI-菜单项-Community-7": 2,
-        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1,
+        "click-LI-菜单项-Community-6": 1
       },
       "params": [],
       "headers": {},
@@ -604,17 +621,17 @@
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
         "click-LI-菜单项-Dashboard-6": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
-        "click-LI-菜单项-Dashboard-4": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
-        "click-LI-菜单项-Dashboard-12": 1,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-14": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--17": 1,
         "click-LI-菜单项-Dashboard-8": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
         "click-LI-菜单项-Dashboard-11": 1,
         "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
-        "click-LI-菜单项-Dashboard-5": 2,
-        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1
       },
       "params": [],
       "headers": {
@@ -622,7 +639,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -673,7 +690,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -690,12 +707,12 @@
       "count": 8,
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
         "click-LI-菜单项-Shop-12": 1,
-        "click-LI-菜单项-Shop-6": 2
+        "click-LI-菜单项-Shop-5": 1
       },
       "params": [
         "limit",
@@ -706,7 +723,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -718,7 +735,7 @@
         {
           "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
           "method": "GET",
-          "context": "click-LI-菜单项-Shop-5"
+          "context": "click-LI-菜单项-Shop-6"
         },
         {
           "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
@@ -733,11 +750,10 @@
       "count": 7,
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
-        "click-LI-菜单项-Shop-6": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
       },
       "params": [],
@@ -751,7 +767,7 @@
         {
           "url": "http://10.15.196.160:8888/images/wheel.svg",
           "method": "GET",
-          "context": "click-LI-菜单项-Shop-5"
+          "context": "click-LI-菜单项-Shop-6"
         },
         {
           "url": "http://10.15.196.160:8888/images/wheel.svg",
@@ -766,12 +782,12 @@
       "count": 8,
       "contexts": {
         "click-LI-菜单项-Shop-7": 1,
-        "click-LI-菜单项-Shop-5": 1,
+        "click-LI-菜单项-Shop-6": 2,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
         "click-LI-菜单项-Shop-9": 1,
         "click-DIV-按钮-<div role=\"button\" t-1": 1,
         "click-LI-菜单项-Shop-12": 1,
-        "click-LI-菜单项-Shop-6": 2
+        "click-LI-菜单项-Shop-5": 1
       },
       "params": [],
       "headers": {},
@@ -784,7 +800,7 @@
         {
           "url": "http://10.15.196.160:8888/images/seat.svg",
           "method": "GET",
-          "context": "click-LI-菜单项-Shop-5"
+          "context": "click-LI-菜单项-Shop-6"
         },
         {
           "url": "http://10.15.196.160:8888/images/seat.svg",
@@ -799,11 +815,11 @@
       "count": 7,
       "contexts": {
         "click-LI-菜单项-Community-8": 1,
-        "click-LI-菜单项-Community-6": 1,
-        "click-LI-菜单项-Community-14": 1,
+        "click-LI-菜单项-Community-7": 2,
+        "click-LI-菜单项-Community-16": 1,
         "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
         "click-LI-菜单项-Community-13": 1,
-        "click-LI-菜单项-Community-7": 2
+        "click-LI-菜单项-Community-6": 1
       },
       "params": [
         "limit",
@@ -814,7 +830,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -826,12 +842,12 @@
         {
           "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
           "method": "GET",
-          "context": "click-LI-菜单项-Community-6"
+          "context": "click-LI-菜单项-Community-7"
         },
         {
           "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
           "method": "GET",
-          "context": "click-LI-菜单项-Community-14"
+          "context": "click-LI-菜单项-Community-16"
         }
       ]
     },
@@ -887,7 +903,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -921,7 +937,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -981,7 +997,7 @@
           "application/json"
         ],
         "authorization": [
-          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
         ]
       },
       "samples": [
@@ -994,6 +1010,49 @@
           "url": "http://10.15.196.160:8888/workshop/api/shop/orders/15",
           "method": "GET",
           "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15"
+        }
+      ]
+    },
+    "POST /workshop/api/shop/orders/return_order": {
+      "method": "POST",
+      "path": "/workshop/api/shop/orders/return_order",
+      "count": 1,
+      "contexts": {
+        "click-BUTTON-按钮-Return-4": 1
+      },
+      "params": [
+        "order_id"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0Nzg3NzgwMCwiZXhwIjoxNzQ4NDgyNjAwLCJyb2xlIjoidXNlciJ9.SOr2ArXtqalt5ziDzu2P-iDaAd88DGAd2NVbI_vsm0_nTFlVq1oa2746wL1WA_sZZAbxsGZ59vkjP00a4kovoej4CeohXenGJCwTrzN3BIz9hWOcg1jfeQAOTQ8ovJvDd9WuLM2WFqoonOhjjXwwDBfC8RuP7R6GpMs7c5PTpu9rFp_j5sPPTECWSGtGiYYCDCkwe-9c3d5iMNSlOLlXob8b_Nw3Z-H-uU-8xyJkFWDRJXM1F7SfR3NwDPTE7hNlcVVsYfNf3Yjl0YBwztaKSUBAPRWQ-A025IyrIcqgbDE2flzvqu1ayLDSmAK3rkfttqAz9AOV9A685kcaqogpPA"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/return_order?order_id=7",
+          "method": "POST",
+          "context": "click-BUTTON-按钮-Return-4"
+        }
+      ]
+    },
+    "GET /workshop/api/shop/return_qr_code": {
+      "method": "GET",
+      "path": "/workshop/api/shop/return_qr_code",
+      "count": 1,
+      "contexts": {
+        "click-BUTTON-按钮-Return-4": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/return_qr_code",
+          "method": "GET",
+          "context": "click-BUTTON-按钮-Return-4"
         }
       ]
     },
@@ -1034,6 +1093,6 @@
       ]
     }
   },
-  "uniqueEndpoints": 24,
-  "totalRequests": 136
+  "uniqueEndpoints": 26,
+  "totalRequests": 138
 }

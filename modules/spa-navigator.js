@@ -31,155 +31,40 @@ class SPANavigator {
         try {
             // 检查element是否包含selector属性
             if (element && element.selector) {
-                console.log(`[SPANavigator] 使用选择器点击元素...`);
+                console.log(`[SPANavigator] 使用CSS选择器点击元素...`);
                 
-                // 检查selector是否是有效的HTML字符串
+                // 检查selector是否是有效的字符串
                 if (!element.selector || typeof element.selector !== 'string') {
                     throw new Error('无效的选择器: ' + (typeof element.selector));
                 }
                 
                 // 记录选择器的基本信息用于调试
                 const selectorInfo = element.selector.substring(0, 100) + (element.selector.length > 100 ? '...' : '');
-                console.log(`[SPANavigator] 选择器内容: ${selectorInfo}`);
+                console.log(`[SPANavigator] CSS选择器: ${selectorInfo}`);
                 
-                // 对于"other"类型的元素，如菜单项、导航菜单等，使用更精确的选择策略
-                const isMenuItem = /menu-item|ant-menu-item|li.*role="menuitem"/i.test(element.selector || '');
-                const isDropdownTrigger = /dropdown-trigger|ant-dropdown-trigger|aria-haspopup="true"/i.test(element.selector || '');
+                // 判断选择器类型：如果以<开头，说明是HTML；否则是CSS选择器
+                const isHtmlSelector = element.selector.trim().startsWith('<');
                 
-                // 尝试使用选择器在页面中找到并点击元素
-                await this.page.evaluate((selectorHtml, isMenuItem, isDropdownTrigger) => {
-                    // 打印调试信息
-                    console.log(`浏览器内调试: 尝试处理选择器，长度 ${selectorHtml.length}`);
+                if (isHtmlSelector) {
+                    // 旧的HTML选择器处理方式（向后兼容）
+                    await this.handleHtmlSelector(element.selector);
+                } else {
+                    // 新的CSS选择器处理方式
+                    console.log(`[SPANavigator] 直接使用CSS选择器进行点击: ${element.selector}`);
                     
-                    // 从HTML创建临时元素，然后使用querySelector找到匹配的元素
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = selectorHtml;
-                    
-                    // 检查tempDiv中是否有有效内容
-                    if (!tempDiv.innerHTML || tempDiv.innerHTML.trim() === '') {
-                        console.log('选择器HTML为空');
-                        throw new Error('选择器HTML为空');
-                    }
-                    
-                    const tempEl = tempDiv.firstChild;
-                    console.log(`浏览器内调试: 临时元素类型: ${tempEl ? tempEl.nodeType : 'null'}`);
-                    if (tempEl) {
-                        console.log(`浏览器内调试: 节点名称: ${tempEl.nodeName}, 类型: ${tempEl.nodeType}`);
-                    }
-                    
-                    // 检查tempEl是否是一个有效的元素节点
-                    if (!tempEl || tempEl.nodeType !== Node.ELEMENT_NODE) {
-                        console.log('选择器HTML未生成有效的元素节点');
-                        throw new Error('选择器HTML未能生成有效的元素节点');
-                    }
-
-                    // 特殊类型元素的处理
-                    if (isMenuItem || isDropdownTrigger) {
-                        // 先尝试更精确的选择器
-                        if (tempEl.hasAttribute && tempEl.hasAttribute('data-menu-id')) {
-                            const menuId = tempEl.getAttribute('data-menu-id');
-                            const menuItem = document.querySelector(`[data-menu-id="${menuId}"]`);
-                            if (menuItem) {
-                                console.log(`找到菜单项(通过data-menu-id="${menuId}")，点击中...`);
-                                menuItem.click();
-                                return;
-                            }
+                    // 直接使用CSS选择器点击
+                    await this.page.evaluate((cssSelector) => {
+                        const targetElement = document.querySelector(cssSelector);
+                        if (targetElement) {
+                            console.log(`[Browser] 找到目标元素，进行点击:`, targetElement);
+                            targetElement.click();
+                            return true;
+                        } else {
+                            console.warn(`[Browser] 未找到匹配的元素: ${cssSelector}`);
+                            throw new Error(`未找到匹配的元素: ${cssSelector}`);
                         }
-                        
-                        // 尝试通过文本内容匹配
-                        const menuText = tempEl.textContent ? tempEl.textContent.trim() : '';
-                        if (menuText) {
-                            // 查找具有相同文本的菜单项
-                            const menuItems = document.querySelectorAll(isMenuItem ? 
-                                'li.ant-menu-item, [role="menuitem"], .menu-item' : 
-                                '.dropdown-trigger, [aria-haspopup="true"], .ant-dropdown-trigger');
-                            
-                            for (const item of menuItems) {
-                                if (item.textContent && item.textContent.trim() === menuText) {
-                                    console.log(`找到${isMenuItem ? '菜单项' : '下拉触发器'}(通过文本内容"${menuText}")，点击中...`);
-                                    item.click();
-                                    return;
-                                }
-                            }
-                        }
-                    }
-                    
-                    // 尝试查找匹配的元素
-                    if (tempEl.tagName) {
-                        const matchedElements = document.querySelectorAll(tempEl.tagName);
-                        for (const el of matchedElements) {
-                            if (el.outerHTML === selectorHtml) {
-                                console.log('找到精确匹配元素，点击中...');
-                                el.click();
-                                return;
-                            }
-                        }
-                    } else {
-                        console.log('选择器没有有效的tagName属性');
-                    }
-                    
-                    // 如果没有精确匹配，尝试更宽松的匹配
-                    if (tempEl.className) {
-                        const classNames = typeof tempEl.className === 'string' ? tempEl.className.split(' ') : [];
-                        if (classNames.length > 0) {
-                            const mainClass = classNames[0];
-                            try {
-                                const similarElements = document.querySelectorAll(`.${mainClass}`);
-                                if (similarElements.length > 0) {
-                                    console.log(`找到类似元素(通过类名.${mainClass})，点击中...`);
-                                    similarElements[0].click();
-                                    return;
-                                }
-                            } catch (err) {
-                                console.log(`使用类名选择器出错: ${err.message}`);
-                            }
-                        }
-                    }
-                    
-                    // 添加最后的备用策略 - 通过数据属性和常见属性查找
-                    const dataAttributeSelectors = [
-                        '[data-testid]',
-                        '[data-qa]',
-                        '[data-cy]',
-                        '[data-test]',
-                        '[data-e2e]',
-                        '[data-ui]',
-                        '[data-click]'
-                    ];
-                    
-                    for (const selector of dataAttributeSelectors) {
-                        const elements = document.querySelectorAll(selector);
-                        if (elements.length > 0) {
-                            console.log(`备用策略: 找到数据属性元素 ${selector}，点击第一个`);
-                            elements[0].click();
-                            return;
-                        }
-                    }
-                    
-                    // 如果是可能的链接文本，尝试查找包含该文本的链接
-                    if (tempEl.textContent) {
-                        const linkText = tempEl.textContent.trim();
-                        const links = Array.from(document.querySelectorAll('a'));
-                        const matchingLink = links.find(a => a.textContent.trim().includes(linkText));
-                        if (matchingLink) {
-                            console.log(`备用策略: 找到匹配文本的链接 "${linkText}"，点击中...`);
-                            matchingLink.click();
-                            return;
-                        }
-                    }
-                    
-                    // 最后的尝试 - 尝试通过ID、name或其他常见属性查找
-                    if (tempEl.id) {
-                        const elById = document.getElementById(tempEl.id);
-                        if (elById) {
-                            console.log(`备用策略: 通过ID "${tempEl.id}" 找到元素，点击中...`);
-                            elById.click();
-                            return;
-                        }
-                    }
-
-                    throw new Error('未找到匹配的元素');
-                }, element.selector, isMenuItem, isDropdownTrigger);
+                    }, element.selector);
+                }
             } else {
                 // 如果element是puppeteer的ElementHandle
                 console.log(`[SPANavigator] 直接点击元素...`);
@@ -188,32 +73,54 @@ class SPANavigator {
         } catch (error) {
             console.warn(`[SPANavigator] 点击元素时出错: ${error.message}`);
             
-            // 尝试备用点击策略 - 使用CSS选择器
+            // 尝试备用点击策略
             try {
                 console.log(`[SPANavigator] 尝试备用点击策略...`);
-                if (element && element.tag) {
-                    const tag = element.tag.toLowerCase();
-                    let cssSelector = tag;
-                    
-                    // 添加类名选择器（如果有）
-                    if (element.class) {
-                        cssSelector += `.${element.class.split(' ')[0]}`;
-                    }
-                    
-                    console.log(`[SPANavigator] 使用备用CSS选择器: ${cssSelector}`);
-                    await this.page.evaluate(selector => {
-                        try {
-                            const elements = document.querySelectorAll(selector);
-                            if (elements && elements.length > 0) {
-                                console.log(`找到 ${elements.length} 个匹配元素，点击第一个`);
+                if (element && element.selector && !element.selector.trim().startsWith('<')) {
+                    // 对于CSS选择器，尝试更多的查找策略
+                    const clicked = await this.page.evaluate((cssSelector) => {
+                        // 尝试多种查找策略
+                        let targetElement = null;
+                        
+                        // 1. 直接查找
+                        targetElement = document.querySelector(cssSelector);
+                        if (targetElement && typeof targetElement.click === 'function') {
+                            console.log(`[Browser] 备用策略1：直接查找成功`);
+                            targetElement.click();
+                            return true;
+                        }
+                        
+                        // 2. 如果包含nth-child，尝试移除nth-child再查找
+                        if (cssSelector.includes(':nth-child(')) {
+                            const simplifiedSelector = cssSelector.replace(/:nth-child\(\d+\)/g, '');
+                            const elements = document.querySelectorAll(simplifiedSelector);
+                            if (elements.length > 0 && typeof elements[0].click === 'function') {
+                                console.log(`[Browser] 备用策略2：简化选择器找到 ${elements.length} 个元素，点击第一个`);
                                 elements[0].click();
                                 return true;
                             }
-                        } catch (err) {
-                            console.log(`备用选择器错误: ${err.message}`);
                         }
+                        
+                        // 3. 如果是复合选择器，尝试逐级简化
+                        if (cssSelector.includes(' > ')) {
+                            const parts = cssSelector.split(' > ');
+                            for (let i = parts.length - 1; i >= 0; i--) {
+                                const partialSelector = parts.slice(i).join(' > ');
+                                const elements = document.querySelectorAll(partialSelector);
+                                if (elements.length > 0 && typeof elements[0].click === 'function') {
+                                    console.log(`[Browser] 备用策略3：部分选择器 "${partialSelector}" 找到元素`);
+                                    elements[0].click();
+                                    return true;
+                                }
+                            }
+                        }
+                        
                         return false;
-                    }, cssSelector);
+                    }, element.selector);
+                    
+                    if (!clicked) {
+                        throw new Error('所有备用策略都失败了');
+                    }
                 }
             } catch (backupError) {
                 console.warn(`[SPANavigator] 备用点击也失败: ${backupError.message}`);
@@ -262,6 +169,76 @@ class SPANavigator {
             hasPopup,
             popupInfo
         };
+    }
+
+    // 处理HTML选择器的旧方法（向后兼容）
+    async handleHtmlSelector(selectorHtml) {
+        console.log(`[SPANavigator] 使用HTML选择器处理方式...`);
+        
+        // 对于"other"类型的元素，如菜单项、导航菜单等，使用更精确的选择策略
+        const isMenuItem = /menu-item|ant-menu-item|li.*role="menuitem"/i.test(selectorHtml || '');
+        const isDropdownTrigger = /dropdown-trigger|ant-dropdown-trigger|aria-haspopup="true"/i.test(selectorHtml || '');
+        
+        // 尝试使用选择器在页面中找到并点击元素
+        await this.page.evaluate((selectorHtml, isMenuItem, isDropdownTrigger) => {
+            // 从HTML创建临时元素，然后使用querySelector找到匹配的元素
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = selectorHtml;
+            
+            if (!tempDiv.innerHTML || tempDiv.innerHTML.trim() === '') {
+                throw new Error('选择器HTML为空');
+            }
+            
+            const tempEl = tempDiv.firstChild;
+            
+            if (!tempEl || tempEl.nodeType !== Node.ELEMENT_NODE) {
+                throw new Error('选择器HTML未能生成有效的元素节点');
+            }
+
+            // 特殊类型元素的处理
+            if (isMenuItem || isDropdownTrigger) {
+                // 先尝试更精确的选择器
+                if (tempEl.hasAttribute && tempEl.hasAttribute('data-menu-id')) {
+                    const menuId = tempEl.getAttribute('data-menu-id');
+                    const menuItem = document.querySelector(`[data-menu-id="${menuId}"]`);
+                    if (menuItem && typeof menuItem.click === 'function') {
+                        console.log(`找到菜单项(通过data-menu-id="${menuId}")，点击中...`);
+                        menuItem.click();
+                        return;
+                    }
+                }
+                
+                // 尝试通过文本内容匹配
+                const menuText = tempEl.textContent ? tempEl.textContent.trim() : '';
+                if (menuText) {
+                    const menuItems = document.querySelectorAll(isMenuItem ? 
+                        'li.ant-menu-item, [role="menuitem"], .menu-item' : 
+                        '.dropdown-trigger, [aria-haspopup="true"], .ant-dropdown-trigger');
+                    
+                    for (const item of menuItems) {
+                        if (item.textContent && item.textContent.trim() === menuText && typeof item.click === 'function') {
+                            console.log(`找到${isMenuItem ? '菜单项' : '下拉触发器'}(通过文本内容"${menuText}")，点击中...`);
+                            item.click();
+                            return;
+                        }
+                    }
+                }
+            }
+            
+            // 尝试查找匹配的元素
+            if (tempEl.tagName) {
+                const matchedElements = document.querySelectorAll(tempEl.tagName);
+                for (const el of matchedElements) {
+                    if (el.outerHTML === selectorHtml && typeof el.click === 'function') {
+                        console.log('找到精确匹配元素，点击中...');
+                        el.click();
+                        return;
+                    }
+                }
+            }
+            
+            throw new Error('未找到匹配的元素');
+        }, selectorHtml, isMenuItem, isDropdownTrigger);
     }
     
     async detectPopup() {

@@ -1,0 +1,85 @@
+{
+  "context": "click-undefined-其他可交互元素-.ant-avatar.ant-avat-31",
+  "timestamp": "2025-05-24T07:10:14.196Z",
+  "count": 4,
+  "requests": [
+    {
+      "id": "0o94c5gjils",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748070463656,
+      "context": "click-undefined-其他可交互元素-.ant-avatar.ant-avat-31"
+    },
+    {
+      "id": "imcj82ewl9b",
+      "requestId": "gkgenasiba",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sat, 24 May 2025 07:07:43 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Saturday, 24-May-2025 07:07:43 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748070463658,
+      "context": "click-undefined-其他可交互元素-.ant-avatar.ant-avat-31",
+      "size": 0
+    },
+    {
+      "id": "2o17rr99oly",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748070529989,
+      "context": "click-undefined-其他可交互元素-.ant-avatar.ant-avat-31"
+    },
+    {
+      "id": "472hvwh8kdb",
+      "requestId": "gkgenasiba",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sat, 24 May 2025 07:08:50 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Saturday, 24-May-2025 07:08:50 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748070530033,
+      "context": "click-undefined-其他可交互元素-.ant-avatar.ant-avat-31",
+      "size": 0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "context": "click-undefined-其他可交互元素-.ant-page-header-hea-40",
+  "timestamp": "2025-05-24T07:10:14.198Z",
+  "count": 4,
+  "requests": [
+    {
+      "id": "f9p23gfglbi",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3MDQzMSwiZXhwIjoxNzQ4Njc1MjMxLCJyb2xlIjoidXNlciJ9.kJZCSkeWNS0TVdTbvetmabdeXeOWM0x37heMCjImDdsEky6CBlIVE_Ya1zLZKSR6gWPIkqOcOdSbjhxdusgr2re7a6oAm886DhgXa61WAdM3TfOIwbdXQn1ofraUvpf09YOy3rV-wbPzHA-45LopRJT0-i8io6IkQB2Qx9VbeXvdNh2xHsaAehe-zvtRmyg3aUrPTJaFgguA3c6BhjlalgObfe9RZOoYtORLqluFRakd1Ebi1fUkH1jxTLZoe_IrZ3PxZQoUliKJxlcyEWLAHIMQM7ciEL12d3MeQNce_ts0vcdATZd38jtAR3s0SdnwIyGhgpNSi9NmwalH9dD3Nw",
+        "referer": "http://10.15.196.160:8888/dashboard",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748070472996,
+      "context": "click-undefined-其他可交互元素-.ant-page-header-hea-40"
+    },
+    {
+      "id": "w7tuf050dr",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3MDQzMSwiZXhwIjoxNzQ4Njc1MjMxLCJyb2xlIjoidXNlciJ9.kJZCSkeWNS0TVdTbvetmabdeXeOWM0x37heMCjImDdsEky6CBlIVE_Ya1zLZKSR6gWPIkqOcOdSbjhxdusgr2re7a6oAm886DhgXa61WAdM3TfOIwbdXQn1ofraUvpf09YOy3rV-wbPzHA-45LopRJT0-i8io6IkQB2Qx9VbeXvdNh2xHsaAehe-zvtRmyg3aUrPTJaFgguA3c6BhjlalgObfe9RZOoYtORLqluFRakd1Ebi1fUkH1jxTLZoe_IrZ3PxZQoUliKJxlcyEWLAHIMQM7ciEL12d3MeQNce_ts0vcdATZd38jtAR3s0SdnwIyGhgpNSi9NmwalH9dD3Nw",
+        "referer": "http://10.15.196.160:8888/dashboard",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748070472998,
+      "context": "click-undefined-其他可交互元素-.ant-page-header-hea-40"
+    },
+    {
+      "id": "g60aqfwjulb",
+      "requestId": "h1xsqfnqjte",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sat, 24 May 2025 07:07:52 GMT",
+        "expires": "0",
+        "keep-alive": "timeout=4",
+        "pragma": "no-cache",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748070473001,
+      "context": "click-undefined-其他可交互元素-.ant-page-header-hea-40",
+      "size": 183,
+      "body": "{\"id\":8,\"name\":\"huang\",\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\",\"picture_url\":null,\"video_url\":null,\"video_name\":null,\"available_credit\":0.0,\"video_id\":0,\"role\":\"ROLE_USER\"}",
+      "jsonData": {
+        "id": 8,
+        "name": "huang",
+        "email": "1045225639@qq.com",
+        "number": "15559564603",
+        "picture_url": null,
+        "video_url": null,
+        "video_name": null,
+        "available_credit": 0,
+        "video_id": 0,
+        "role": "ROLE_USER"
+      }
+    },
+    {
+      "id": "5004nnujxvr",
+      "requestId": "pbjhiki2s3",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sat, 24 May 2025 07:07:52 GMT",
+        "expires": "0",
+        "keep-alive": "timeout=4",
+        "pragma": "no-cache",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748070473001,
+      "context": "click-undefined-其他可交互元素-.ant-page-header-hea-40",
+      "size": 2,
+      "body": "[]",
+      "jsonData": []
+    }
+  ]
+}

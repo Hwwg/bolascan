@@ -78,21 +78,32 @@ class PageWrapper {
                 result.clicked = true;
             } else if (element && element.selector) {
                 // 如果element是我们内部使用的元素对象格式
-                await this.page.evaluate((selectorHtml) => {
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = selectorHtml;
-                    const tempEl = tempDiv.firstChild;
-                    
-                    // 尝试查找匹配的元素
-                    const matchedElements = document.querySelectorAll(tempEl.tagName);
-                    for (const el of matchedElements) {
-                        if (el.outerHTML === selectorHtml) {
-                            el.click();
-                            return true;
+                const selector = element.selector;
+                const isHtmlSelector = selector.trim().startsWith('<');
+                
+                if (isHtmlSelector) {
+                    // 旧的HTML选择器处理方式
+                    await this.page.evaluate((selectorHtml) => {
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = selectorHtml;
+                        const tempEl = tempDiv.firstChild;
+                        
+                        if (!tempEl) return false;
+                        
+                        // 尝试查找匹配的元素
+                        const matchedElements = document.querySelectorAll(tempEl.tagName);
+                        for (const el of matchedElements) {
+                            if (el.outerHTML === selectorHtml) {
+                                el.click();
+                                return true;
+                            }
                         }
-                    }
-                    return false;
-                }, element.selector);
+                        return false;
+                    }, selector);
+                } else {
+                    // 新的CSS选择器处理方式
+                    await this.page.click(selector);
+                }
                 result.clicked = true;
             }
             
@@ -196,7 +207,6 @@ class PageWrapper {
         
         try {
             // 使用puppeteer的isVisible方法检查元素可见性
-            // 如果element是一个选择器字符串，先尝试找到元素
             let isVisible = false;
             
             if (typeof element === 'string') {
@@ -214,24 +224,41 @@ class PageWrapper {
                 const selector = element.selector;
                 console.log(`[PageWrapper] 检查元素可见性，选择器: ${selector.slice(0, 50)}...`);
                 
-                isVisible = await this.page.evaluate(selectorHtml => {
-                    // 从HTML创建临时元素，然后使用querySelector找到匹配的元素
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = selectorHtml;
-                    const tempEl = tempDiv.firstChild;
-                    
-                    // 尝试查找匹配的元素
-                    const matchedElements = document.querySelectorAll(tempEl.tagName);
-                    for (const el of matchedElements) {
-                        if (el.outerHTML === selectorHtml) {
-                            const style = window.getComputedStyle(el);
-                            return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length) && 
-                                   style.visibility !== 'hidden' && 
-                                   style.display !== 'none';
+                // 判断是HTML选择器还是CSS选择器
+                const isHtmlSelector = selector.trim().startsWith('<');
+                
+                if (isHtmlSelector) {
+                    // 旧的HTML选择器处理方式
+                    isVisible = await this.page.evaluate(selectorHtml => {
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = selectorHtml;
+                        const tempEl = tempDiv.firstChild;
+                        
+                        if (!tempEl) return false;
+                        
+                        // 尝试查找匹配的元素
+                        const matchedElements = document.querySelectorAll(tempEl.tagName);
+                        for (const el of matchedElements) {
+                            if (el.outerHTML === selectorHtml) {
+                                const style = window.getComputedStyle(el);
+                                return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length) && 
+                                       style.visibility !== 'hidden' && 
+                                       style.display !== 'none';
+                            }
                         }
-                    }
-                    return false;
-                }, selector);
+                        return false;
+                    }, selector);
+                } else {
+                    // 新的CSS选择器处理方式
+                    isVisible = await this.page.evaluate(cssSelector => {
+                        const el = document.querySelector(cssSelector);
+                        if (!el) return false;
+                        const style = window.getComputedStyle(el);
+                        return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length) && 
+                               style.visibility !== 'hidden' && 
+                               style.display !== 'none';
+                    }, selector);
+                }
             }
             
             console.log(`[PageWrapper] 元素可见性检查结果: ${isVisible}`);
@@ -254,4 +281,5 @@ class PageWrapper {
         }
     }
 }
-    module.exports = PageWrapper;
+
+module.exports = PageWrapper;

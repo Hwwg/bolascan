@@ -1,0 +1,103 @@
+{
+  "context": "click-SPAN-其他可交互元素-Posted on-81",
+  "timestamp": "2025-05-24T07:53:47.693Z",
+  "count": 4,
+  "requests": [
+    {
+      "id": "aoqj7zd39du",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=cWWKLHVCzQCqAtSn2fV9LX"
+      },
+      "timestamp": 1748073181859,
+      "context": "click-SPAN-其他可交互元素-Posted on-81"
+    },
+    {
+      "id": "5qqxxvzyz6f",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/cWWKLHVCzQCqAtSn2fV9LX",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA",
+        "referer": "http://10.15.196.160:8888/post?post_id=cWWKLHVCzQCqAtSn2fV9LX",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748073181861,
+      "context": "click-SPAN-其他可交互元素-Posted on-81"
+    },
+    {
+      "id": "m0yuwjgrvj",
+      "requestId": "59m6kpu3uk",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sat, 24 May 2025 07:53:01 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Saturday, 24-May-2025 07:53:01 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748073181863,
+      "context": "click-SPAN-其他可交互元素-Posted on-81",
+      "size": 0
+    },
+    {
+      "id": "2uelm47r54m",
+      "requestId": "p55iy9u3cna",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/cWWKLHVCzQCqAtSn2fV9LX",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sat, 24 May 2025 07:53:01 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748073181864,
+      "context": "click-SPAN-其他可交互元素-Posted on-81",
+      "size": 315,
+      "body": "{\"id\":\"cWWKLHVCzQCqAtSn2fV9LX\",\"title\":\"Title 3\",\"content\":\"Hello world 3\",\"author\":{\"nickname\":\"Robot\",\"email\":\"robot001@example.com\",\"vehicleid\":\"4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.954Z\"},\"comments\":[],\"authorid\":3,\"CreatedAt\":\"2025-05-01T08:57:40.954Z\"}\n",
+      "jsonData": {
+        "id": "cWWKLHVCzQCqAtSn2fV9LX",
+        "title": "Title 3",
+        "content": "Hello world 3",
+        "author": {
+          "nickname": "Robot",
+          "email": "robot001@example.com",
+          "vehicleid": "4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5",
+          "profile_pic_url": "",
+          "created_at": "2025-05-01T08:57:40.954Z"
+        },
+        "comments": [],
+        "authorid": 3,
+        "CreatedAt": "2025-05-01T08:57:40.954Z"
+      }
+    }
+  ]
+}
