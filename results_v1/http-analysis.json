@@ -1,0 +1,1039 @@
+{
+  "patternsByPath": {
+    "/": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1
+      }
+    },
+    "/static/css/2.07102e08.chunk.css": {
+      "count": 9,
+      "methods": {
+        "GET": 9
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/static/css/main.4ac450fe.chunk.css": {
+      "count": 9,
+      "methods": {
+        "GET": 9
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/static/js/2.b8091b3e.chunk.js": {
+      "count": 9,
+      "methods": {
+        "GET": 9
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/static/js/main.8115eeff.chunk.js": {
+      "count": 9,
+      "methods": {
+        "GET": 9
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/identity/api/auth/login": {
+      "count": 1,
+      "methods": {
+        "POST": 1
+      },
+      "contexts": {
+        "login-process": 1
+      }
+    },
+    "/identity/api/v2/user/dashboard": {
+      "count": 19,
+      "methods": {
+        "GET": 19
+      },
+      "contexts": {
+        "login-process": 2,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Dashboard-6": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Dashboard-12": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-8": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
+        "click-LI-菜单项-Dashboard-11": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+      }
+    },
+    "/static/media/default_profile_pic.24d66af2.png": {
+      "count": 16,
+      "methods": {
+        "GET": 16
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Community-8": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "click-LI-菜单项-Community-6": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Community-14": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 2,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-LI-菜单项-Community-13": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "click-LI-菜单项-Community-7": 2,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/identity/api/v2/vehicle/vehicles": {
+      "count": 18,
+      "methods": {
+        "GET": 18
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Dashboard-6": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Dashboard-12": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-8": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
+        "click-LI-菜单项-Dashboard-11": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+      }
+    },
+    "/dashboard": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1
+      }
+    },
+    "/identity/api/v2/vehicle/resend_email": {
+      "count": 1,
+      "methods": {
+        "POST": 1
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Click here-2": 1
+      }
+    },
+    "/workshop/api/shop/products": {
+      "count": 8,
+      "methods": {
+        "GET": 8
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Shop-12": 1,
+        "click-LI-菜单项-Shop-6": 2
+      }
+    },
+    "/images/wheel.svg": {
+      "count": 7,
+      "methods": {
+        "GET": 7
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-LI-菜单项-Shop-6": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/images/seat.svg": {
+      "count": 8,
+      "methods": {
+        "GET": 8
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Shop-12": 1,
+        "click-LI-菜单项-Shop-6": 2
+      }
+    },
+    "/community/api/v2/community/posts/recent": {
+      "count": 7,
+      "methods": {
+        "GET": 7
+      },
+      "contexts": {
+        "click-LI-菜单项-Community-8": 1,
+        "click-LI-菜单项-Community-6": 1,
+        "click-LI-菜单项-Community-14": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "click-LI-菜单项-Community-13": 1,
+        "click-LI-菜单项-Community-7": 2
+      }
+    },
+    "/verify-vehicle": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/shop": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1
+      }
+    },
+    "/workshop/api/shop/orders/all": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Past Orders-3": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1
+      }
+    },
+    "/workshop/api/shop/orders": {
+      "count": 1,
+      "methods": {
+        "POST": 1
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Buy-4": 1
+      }
+    },
+    "/forum": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1
+      }
+    },
+    "/past-orders": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1
+      }
+    },
+    "/workshop/api/shop/orders/15": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "click-BUTTON-按钮-Order Details-2": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    },
+    "/new-post": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1
+      }
+    },
+    "/orders": {
+      "count": 1,
+      "methods": {
+        "GET": 1
+      },
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      }
+    }
+  },
+  "endpointDetails": {
+    "GET /": {
+      "method": "GET",
+      "path": "/",
+      "count": 2,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/",
+          "method": "GET",
+          "context": "login-verification"
+        }
+      ]
+    },
+    "GET /static/css/2.07102e08.chunk.css": {
+      "method": "GET",
+      "path": "/static/css/2.07102e08.chunk.css",
+      "count": 9,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "GET /static/css/main.4ac450fe.chunk.css": {
+      "method": "GET",
+      "path": "/static/css/main.4ac450fe.chunk.css",
+      "count": 9,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "GET /static/js/2.b8091b3e.chunk.js": {
+      "method": "GET",
+      "path": "/static/js/2.b8091b3e.chunk.js",
+      "count": 9,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "GET /static/js/main.8115eeff.chunk.js": {
+      "method": "GET",
+      "path": "/static/js/main.8115eeff.chunk.js",
+      "count": 9,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "POST /identity/api/auth/login": {
+      "method": "POST",
+      "path": "/identity/api/auth/login",
+      "count": 1,
+      "contexts": {
+        "login-process": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/auth/login",
+          "method": "POST",
+          "postData": "{\"email\":\"1045225639@qq.com\",\"password\":\"As119801222@\"}",
+          "context": "login-process"
+        }
+      ]
+    },
+    "GET /identity/api/v2/user/dashboard": {
+      "method": "GET",
+      "path": "/identity/api/v2/user/dashboard",
+      "count": 19,
+      "contexts": {
+        "login-process": 2,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Dashboard-6": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Dashboard-12": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-8": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
+        "click-LI-菜单项-Dashboard-11": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "login-verification"
+        }
+      ]
+    },
+    "GET /static/media/default_profile_pic.24d66af2.png": {
+      "method": "GET",
+      "path": "/static/media/default_profile_pic.24d66af2.png",
+      "count": 16,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Community-8": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "click-LI-菜单项-Community-6": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Community-14": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 2,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-LI-菜单项-Community-13": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1,
+        "click-LI-菜单项-Community-7": 2,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "GET /identity/api/v2/vehicle/vehicles": {
+      "method": "GET",
+      "path": "/identity/api/v2/vehicle/vehicles",
+      "count": 18,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1,
+        "click-LI-菜单项-Dashboard-6": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--9": 1,
+        "click-LI-菜单项-Dashboard-4": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--7": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Dashboard-12": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--15": 1,
+        "click-LI-菜单项-Dashboard-8": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--11": 1,
+        "click-LI-菜单项-Dashboard-11": 1,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--14": 1,
+        "click-LI-菜单项-Dashboard-5": 2,
+        "click-LI-其他可交互元素-<li class=\"ant-menu--8": 2
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "GET /dashboard": {
+      "method": "GET",
+      "path": "/dashboard",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/dashboard",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fdashboard"
+        }
+      ]
+    },
+    "POST /identity/api/v2/vehicle/resend_email": {
+      "method": "POST",
+      "path": "/identity/api/v2/vehicle/resend_email",
+      "count": 1,
+      "contexts": {
+        "click-BUTTON-按钮-Click here-2": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/resend_email",
+          "method": "POST",
+          "context": "click-BUTTON-按钮-Click here-2"
+        }
+      ]
+    },
+    "GET /workshop/api/shop/products": {
+      "method": "GET",
+      "path": "/workshop/api/shop/products",
+      "count": 8,
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Shop-12": 1,
+        "click-LI-菜单项-Shop-6": 2
+      },
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-7"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-5"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop"
+        }
+      ]
+    },
+    "GET /images/wheel.svg": {
+      "method": "GET",
+      "path": "/images/wheel.svg",
+      "count": 7,
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-LI-菜单项-Shop-6": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/images/wheel.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-7"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/wheel.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-5"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/wheel.svg",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop"
+        }
+      ]
+    },
+    "GET /images/seat.svg": {
+      "method": "GET",
+      "path": "/images/seat.svg",
+      "count": 8,
+      "contexts": {
+        "click-LI-菜单项-Shop-7": 1,
+        "click-LI-菜单项-Shop-5": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1,
+        "click-LI-菜单项-Shop-9": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1,
+        "click-LI-菜单项-Shop-12": 1,
+        "click-LI-菜单项-Shop-6": 2
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/images/seat.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-7"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/seat.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-5"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/seat.svg",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop"
+        }
+      ]
+    },
+    "GET /community/api/v2/community/posts/recent": {
+      "method": "GET",
+      "path": "/community/api/v2/community/posts/recent",
+      "count": 7,
+      "contexts": {
+        "click-LI-菜单项-Community-8": 1,
+        "click-LI-菜单项-Community-6": 1,
+        "click-LI-菜单项-Community-14": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1,
+        "click-LI-菜单项-Community-13": 1,
+        "click-LI-菜单项-Community-7": 2
+      },
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Community-8"
+        },
+        {
+          "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Community-6"
+        },
+        {
+          "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Community-14"
+        }
+      ]
+    },
+    "GET /verify-vehicle": {
+      "method": "GET",
+      "path": "/verify-vehicle",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/verify-vehicle",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /shop": {
+      "method": "GET",
+      "path": "/shop",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/shop",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fshop"
+        }
+      ]
+    },
+    "GET /workshop/api/shop/orders/all": {
+      "method": "GET",
+      "path": "/workshop/api/shop/orders/all",
+      "count": 3,
+      "contexts": {
+        "click-BUTTON-按钮-Past Orders-3": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1,
+        "click-DIV-按钮-<div role=\"button\" t-1": 1
+      },
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/all?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-BUTTON-按钮-Past Orders-3"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/all?limit=30&offset=0",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/all?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-DIV-按钮-<div role=\"button\" t-1"
+        }
+      ]
+    },
+    "POST /workshop/api/shop/orders": {
+      "method": "POST",
+      "path": "/workshop/api/shop/orders",
+      "count": 1,
+      "contexts": {
+        "click-BUTTON-按钮-Buy-4": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders",
+          "method": "POST",
+          "postData": "{\"product_id\":2,\"quantity\":1}",
+          "context": "click-BUTTON-按钮-Buy-4"
+        }
+      ]
+    },
+    "GET /forum": {
+      "method": "GET",
+      "path": "/forum",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/forum",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fforum"
+        }
+      ]
+    },
+    "GET /past-orders": {
+      "method": "GET",
+      "path": "/past-orders",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/past-orders",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fpast-orders"
+        }
+      ]
+    },
+    "GET /workshop/api/shop/orders/15": {
+      "method": "GET",
+      "path": "/workshop/api/shop/orders/15",
+      "count": 2,
+      "contexts": {
+        "click-BUTTON-按钮-Order Details-2": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/15",
+          "method": "GET",
+          "context": "click-BUTTON-按钮-Order Details-2"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/orders/15",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15"
+        }
+      ]
+    },
+    "GET /new-post": {
+      "method": "GET",
+      "path": "/new-post",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/new-post",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fnew-post"
+        }
+      ]
+    },
+    "GET /orders": {
+      "method": "GET",
+      "path": "/orders",
+      "count": 1,
+      "contexts": {
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15": 1
+      },
+      "params": [
+        "order_id"
+      ],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/orders?order_id=15",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Forders%3Forder_id%3D15"
+        }
+      ]
+    }
+  },
+  "uniqueEndpoints": 24,
+  "totalRequests": 136
+}

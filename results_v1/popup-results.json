@@ -1,0 +1,66 @@
+{
+  "http://10.15.196.160:8888/dashboard": [
+    {
+      "element": {
+        "tag": "BUTTON",
+        "selector": "<button type=\"button\" class=\"alert-msg btn\"> Click here </button>",
+        "visible": true,
+        "text": "Click here"
+      },
+      "type": "popup",
+      "popupInfo": {
+        "type": "div",
+        "className": "ant-modal ant-modal-confirm ant-modal-confirm-success",
+        "id": "",
+        "text": "Success\nYour newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal.\nOK",
+        "htmlContent": "<div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div><div class=\"ant-modal-content\"><div class=\"ant-modal-body\"><div class=\"ant-modal-confirm-body-wrapper\"><div class=\"ant-modal-confirm-body\"><span role=\"img\" aria-label=\"check-circle\" class=\"anticon anticon-check-circle\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"check-circle\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z\"></path><path d=\"M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z\"></path></svg></span><span class=\"ant-modal-confirm-title\">Success</span><div class=\"ant-modal-confirm-content\">Your newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal. </div></div><div class=\"ant-modal-confirm-btns\"><button type=\"button\" class=\"ant-btn ant-btn-primary\"><span>OK</span></button></div></div></div></div><div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div>",
+        "hasCloseButton": false,
+        "hasConfirmButton": false,
+        "hasCancelButton": false,
+        "messageType": "success"
+      }
+    }
+  ],
+  "http://10.15.196.160:8888/shop": [
+    {
+      "element": {
+        "tag": "BUTTON",
+        "selector": "<button type=\"button\" class=\"ant-btn ant-btn-round ant-btn-primary ant-btn-lg\"><span role=\"img\" aria-label=\"plus\" class=\"anticon anticon-plus\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z\"></path><path d=\"M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z\"></path></svg></span><span>Add Coupons</span></button>",
+        "visible": true,
+        "text": "Add Coupons"
+      },
+      "type": "popup",
+      "popupInfo": {
+        "type": "div",
+        "className": "ant-modal",
+        "id": "",
+        "text": "Enter Coupon Code\nValidate",
+        "htmlContent": "<div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div><div class=\"ant-modal-content\"><button type=\"button\" aria-label=\"Close\" class=\"ant-modal-close\"><span class=\"ant-modal-close-x\"><span role=\"img\" aria-label=\"close\" class=\"anticon anticon-close ant-modal-close-icon\"><svg fill-rule=\"evenodd\" viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"close\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z\"></path></svg></span></span></button><div class=\"ant-modal-header\"><div class=\"ant-modal-title\" id=\":r0:\">Enter Coupon Code</div></div><div class=\"ant-modal-body\"><form id=\"basic\" class=\"ant-form ant-form-horizontal\"><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><input placeholder=\"Coupon Code\" id=\"basic_couponCode\" aria-required=\"true\" class=\"ant-input\" type=\"text\" value=\"\"></div></div></div></div></div><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><button type=\"submit\" class=\"ant-btn ant-btn-primary form-button\"><span>Validate</span></button></div></div></div></div></div></form></div></div><div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div>",
+        "hasCloseButton": true,
+        "hasConfirmButton": true,
+        "hasCancelButton": false,
+        "messageType": "unknown"
+      }
+    },
+    {
+      "element": {
+        "tag": "BUTTON",
+        "selector": "<button type=\"button\" class=\"ant-btn ant-btn-round ant-btn-primary ant-btn-lg buy-btn\"><span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6z\"></path></svg></span><span>Buy</span></button>",
+        "visible": true,
+        "text": "Buy"
+      },
+      "type": "popup",
+      "popupInfo": {
+        "type": "div",
+        "className": "ant-modal ant-modal-confirm ant-modal-confirm-error",
+        "id": "",
+        "text": "Failed\nInsufficient Balance. Please apply coupons to get more balance!\nOK",
+        "htmlContent": "<div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div><div class=\"ant-modal-content\"><div class=\"ant-modal-body\"><div class=\"ant-modal-confirm-body-wrapper\"><div class=\"ant-modal-confirm-body\"><span role=\"img\" aria-label=\"close-circle\" class=\"anticon anticon-close-circle\"><svg fill-rule=\"evenodd\" viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"close-circle\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z\"></path></svg></span><span class=\"ant-modal-confirm-title\">Failed</span><div class=\"ant-modal-confirm-content\">Insufficient Balance. Please apply coupons to get more balance!</div></div><div class=\"ant-modal-confirm-btns\"><button type=\"button\" class=\"ant-btn ant-btn-primary\"><span>OK</span></button></div></div></div></div><div tabindex=\"0\" aria-hidden=\"true\" style=\"width: 0px; height: 0px; overflow: hidden; outline: none;\"></div>",
+        "hasCloseButton": false,
+        "hasConfirmButton": false,
+        "hasCancelButton": false,
+        "messageType": "error"
+      }
+    }
+  ]
+}

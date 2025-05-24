@@ -1,0 +1,140 @@
+{
+  "context": "click-LI-菜单项-Community-6",
+  "timestamp": "2025-05-24T06:20:59.724Z",
+  "count": 4,
+  "requests": [
+    {
+      "id": "5vyfgsjmx7o",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA2NzQzNCwiZXhwIjoxNzQ4NjcyMjM0LCJyb2xlIjoidXNlciJ9.joKovNLVdn7_OUwcLJSlkzP4vpQ6pzUGJ82gZr5XNPoVfBGFhss93fcYl8UA2tGtxlRvvumJzjHCldldUA6W7vVu3Kk3AeZ9cYhaHyI5nwCxDwZYKqNDEekVnsui-VCpdAV7RncxS5JUZtZAAMpjpd3gBLIKVofsb8Hu509LyimuPLWF7bUbaNNzMrEmMkErkRsyMDNE7tirNLs3pTxWE7Fe7bVtZcHsckiAV4FIMufVd5u57LkSdcL4kUCyVSIGCGRCFm1wD_VZCHXCJS3bGmv9v-NA8W8EzLkG7qmwh1VU6GfJMfJxgHbzdJF3f4Yq_CK-gDuZ71clOjL1ZmFjHw",
+        "referer": "http://10.15.196.160:8888/forum",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748067479421,
+      "context": "click-LI-菜单项-Community-6"
+    },
+    {
+      "id": "4dwgl0bf575",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/forum"
+      },
+      "timestamp": 1748067479425,
+      "context": "click-LI-菜单项-Community-6"
+    },
+    {
+      "id": "zj0fq5em0f",
+      "requestId": "r6e117cir4q",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sat, 24 May 2025 06:17:59 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Saturday, 24-May-2025 06:17:59 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748067479427,
+      "context": "click-LI-菜单项-Community-6",
+      "size": 0
+    },
+    {
+      "id": "ejxcxx843u6",
+      "requestId": "axi2d0beepv",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sat, 24 May 2025 06:17:59 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748067479428,
+      "context": "click-LI-菜单项-Community-6",
+      "size": 1005,
+      "body": "{\"posts\":[{\"id\":\"cWWKLHVCzQCqAtSn2fV9LX\",\"title\":\"Title 3\",\"content\":\"Hello world 3\",\"author\":{\"nickname\":\"Robot\",\"email\":\"robot001@example.com\",\"vehicleid\":\"4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.954Z\"},\"comments\":[],\"authorid\":3,\"CreatedAt\":\"2025-05-01T08:57:40.954Z\"},{\"id\":\"MyihXBGgo8iEoUQqQ62TB\",\"title\":\"Title 2\",\"content\":\"Hello world 2\",\"author\":{\"nickname\":\"Pogba\",\"email\":\"pogba006@example.com\",\"vehicleid\":\"cd515c12-0fc1-48ae-8b61-9230b70a845b\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.952Z\"},\"comments\":[],\"authorid\":2,\"CreatedAt\":\"2025-05-01T08:57:40.952Z\"},{\"id\":\"wtGb2Rq86ZBkYrAfbyerw\",\"title\":\"Title 1\",\"content\":\"Hello world 1\",\"author\":{\"nickname\":\"Adam\",\"email\":\"adam007@example.com\",\"vehicleid\":\"f89b5f21-7829-45cb-a650-299a61090378\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.942Z\"},\"comments\":[],\"authorid\":1,\"CreatedAt\":\"2025-05-01T08:57:40.942Z\"}],\"next_offset\":null,\"previous_offset\":null,\"total\":3}\n",
+      "jsonData": {
+        "posts": [
+          {
+            "id": "cWWKLHVCzQCqAtSn2fV9LX",
+            "title": "Title 3",
+            "content": "Hello world 3",
+            "author": {
+              "nickname": "Robot",
+              "email": "robot001@example.com",
+              "vehicleid": "4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5",
+              "profile_pic_url": "",
+              "created_at": "2025-05-01T08:57:40.954Z"
+            },
+            "comments": [],
+            "authorid": 3,
+            "CreatedAt": "2025-05-01T08:57:40.954Z"
+          },
+          {
+            "id": "MyihXBGgo8iEoUQqQ62TB",
+            "title": "Title 2",
+            "content": "Hello world 2",
+            "author": {
+              "nickname": "Pogba",
+              "email": "pogba006@example.com",
+              "vehicleid": "cd515c12-0fc1-48ae-8b61-9230b70a845b",
+              "profile_pic_url": "",
+              "created_at": "2025-05-01T08:57:40.952Z"
+            },
+            "comments": [],
+            "authorid": 2,
+            "CreatedAt": "2025-05-01T08:57:40.952Z"
+          },
+          {
+            "id": "wtGb2Rq86ZBkYrAfbyerw",
+            "title": "Title 1",
+            "content": "Hello world 1",
+            "author": {
+              "nickname": "Adam",
+              "email": "adam007@example.com",
+              "vehicleid": "f89b5f21-7829-45cb-a650-299a61090378",
+              "profile_pic_url": "",
+              "created_at": "2025-05-01T08:57:40.942Z"
+            },
+            "comments": [],
+            "authorid": 1,
+            "CreatedAt": "2025-05-01T08:57:40.942Z"
+          }
+        ],
+        "next_offset": null,
+        "previous_offset": null,
+        "total": 3
+      }
+    }
+  ]
+}

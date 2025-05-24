@@ -1,0 +1,24 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动程序",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "/Users/tlif3./Desktop/all/zju_research/llm_auth/BolaScan_v2/index.js",
+            "args": [
+                "--url", "http://10.15.196.160:8888",
+                "--username", "1045225639@qq.com",
+                "--password", "As119801222@",
+                "--output", "./results_v1",
+                "--depth", "10"
+            ]
+        }
+    ]
+}
