@@ -29,8 +29,21 @@ class SPANavigator {
         }
         
         try {
-            // 检查element是否包含selector属性
-            if (element && element.selector) {
+            // 检查element的类型和属性
+            console.log(`[SPANavigator] 元素对象类型检查:`, {
+                hasSelector: !!(element && element.selector),
+                selectorType: typeof element?.selector,
+                isElementHandle: element && typeof element.click === 'function',
+                elementKeys: element ? Object.keys(element) : []
+            });
+
+            // 情况1：element是Puppeteer的ElementHandle（有click方法）
+            if (element && typeof element.click === 'function') {
+                console.log(`[SPANavigator] 直接点击ElementHandle...`);
+                await element.click();
+            }
+            // 情况2：element是我们的元素对象（有selector属性）
+            else if (element && element.selector) {
                 console.log(`[SPANavigator] 使用CSS选择器点击元素...`);
                 
                 // 检查selector是否是有效的字符串
@@ -46,29 +59,45 @@ class SPANavigator {
                 const isHtmlSelector = element.selector.trim().startsWith('<');
                 
                 if (isHtmlSelector) {
+                    console.log(`[SPANavigator] 检测到HTML选择器，转换为CSS选择器...`);
                     // 旧的HTML选择器处理方式（向后兼容）
                     await this.handleHtmlSelector(element.selector);
                 } else {
                     // 新的CSS选择器处理方式
-                    console.log(`[SPANavigator] 直接使用CSS选择器进行点击: ${element.selector}`);
+                    console.log(`[SPANavigator] 使用CSS选择器进行点击: ${element.selector}`);
                     
                     // 直接使用CSS选择器点击
-                    await this.page.evaluate((cssSelector) => {
+                    const clickResult = await this.page.evaluate((cssSelector) => {
                         const targetElement = document.querySelector(cssSelector);
                         if (targetElement) {
-                            console.log(`[Browser] 找到目标元素，进行点击:`, targetElement);
+                            console.log(`[Browser] 找到目标元素:`, targetElement.tagName, targetElement.className);
+                            
+                            // 确保元素可见和可点击
+                            if (targetElement.style.display === 'none' || 
+                                targetElement.style.visibility === 'hidden') {
+                                console.warn(`[Browser] 元素不可见，但仍尝试点击`);
+                            }
+                            
+                            // 滚动到元素位置
+                            targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            
+                            // 执行点击
                             targetElement.click();
-                            return true;
+                            return { success: true, tag: targetElement.tagName };
                         } else {
                             console.warn(`[Browser] 未找到匹配的元素: ${cssSelector}`);
-                            throw new Error(`未找到匹配的元素: ${cssSelector}`);
+                            return { success: false, error: `未找到匹配的元素: ${cssSelector}` };
                         }
                     }, element.selector);
+                    
+                    if (!clickResult.success) {
+                        throw new Error(clickResult.error);
+                    }
+                    
+                    console.log(`[SPANavigator] 成功点击元素: ${clickResult.tag}`);
                 }
             } else {
-                // 如果element是puppeteer的ElementHandle
-                console.log(`[SPANavigator] 直接点击元素...`);
-                await element.click();
+                throw new Error('无效的元素对象：既不是ElementHandle也没有selector属性');
             }
         } catch (error) {
             console.warn(`[SPANavigator] 点击元素时出错: ${error.message}`);
@@ -76,51 +105,94 @@ class SPANavigator {
             // 尝试备用点击策略
             try {
                 console.log(`[SPANavigator] 尝试备用点击策略...`);
-                if (element && element.selector && !element.selector.trim().startsWith('<')) {
+                if (element && element.selector && typeof element.selector === 'string' && 
+                    !element.selector.trim().startsWith('<')) {
+                    
                     // 对于CSS选择器，尝试更多的查找策略
                     const clicked = await this.page.evaluate((cssSelector) => {
-                        // 尝试多种查找策略
-                        let targetElement = null;
+                        console.log(`[Browser] 开始备用点击策略，选择器: ${cssSelector}`);
                         
-                        // 1. 直接查找
-                        targetElement = document.querySelector(cssSelector);
-                        if (targetElement && typeof targetElement.click === 'function') {
+                        // 策略1: 直接查找
+                        let targetElement = document.querySelector(cssSelector);
+                        if (targetElement) {
                             console.log(`[Browser] 备用策略1：直接查找成功`);
-                            targetElement.click();
-                            return true;
-                        }
-                        
-                        // 2. 如果包含nth-child，尝试移除nth-child再查找
-                        if (cssSelector.includes(':nth-child(')) {
-                            const simplifiedSelector = cssSelector.replace(/:nth-child\(\d+\)/g, '');
-                            const elements = document.querySelectorAll(simplifiedSelector);
-                            if (elements.length > 0 && typeof elements[0].click === 'function') {
-                                console.log(`[Browser] 备用策略2：简化选择器找到 ${elements.length} 个元素，点击第一个`);
-                                elements[0].click();
-                                return true;
+                            try {
+                                targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                targetElement.click();
+                                return { success: true, strategy: 'direct' };
+                            } catch (e) {
+                                console.warn(`[Browser] 直接点击失败: ${e.message}`);
                             }
                         }
                         
-                        // 3. 如果是复合选择器，尝试逐级简化
+                        // 策略2: 如果包含nth-child，尝试移除nth-child再查找
+                        if (cssSelector.includes(':nth-child(')) {
+                            const simplifiedSelector = cssSelector.replace(/:nth-child\(\d+\)/g, '');
+                            const elements = document.querySelectorAll(simplifiedSelector);
+                            if (elements.length > 0) {
+                                console.log(`[Browser] 备用策略2：简化选择器找到 ${elements.length} 个元素，点击第一个`);
+                                try {
+                                    elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    elements[0].click();
+                                    return { success: true, strategy: 'simplified' };
+                                } catch (e) {
+                                    console.warn(`[Browser] 简化选择器点击失败: ${e.message}`);
+                                }
+                            }
+                        }
+                        
+                        // 策略3: 如果是复合选择器，尝试逐级简化
                         if (cssSelector.includes(' > ')) {
                             const parts = cssSelector.split(' > ');
                             for (let i = parts.length - 1; i >= 0; i--) {
                                 const partialSelector = parts.slice(i).join(' > ');
                                 const elements = document.querySelectorAll(partialSelector);
-                                if (elements.length > 0 && typeof elements[0].click === 'function') {
+                                if (elements.length > 0) {
                                     console.log(`[Browser] 备用策略3：部分选择器 "${partialSelector}" 找到元素`);
-                                    elements[0].click();
-                                    return true;
+                                    try {
+                                        elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                        elements[0].click();
+                                        return { success: true, strategy: 'partial' };
+                                    } catch (e) {
+                                        console.warn(`[Browser] 部分选择器点击失败: ${e.message}`);
+                                    }
                                 }
                             }
                         }
                         
-                        return false;
+                        // 策略4: 使用坐标点击
+                        targetElement = document.querySelector(cssSelector.split(':nth-child')[0]);
+                        if (targetElement) {
+                            console.log(`[Browser] 备用策略4：使用坐标点击`);
+                            try {
+                                const rect = targetElement.getBoundingClientRect();
+                                const x = rect.left + rect.width / 2;
+                                const y = rect.top + rect.height / 2;
+                                
+                                const event = new MouseEvent('click', {
+                                    view: window,
+                                    bubbles: true,
+                                    cancelable: true,
+                                    clientX: x,
+                                    clientY: y
+                                });
+                                targetElement.dispatchEvent(event);
+                                return { success: true, strategy: 'coordinate' };
+                            } catch (e) {
+                                console.warn(`[Browser] 坐标点击失败: ${e.message}`);
+                            }
+                        }
+                        
+                        return { success: false, strategy: 'none' };
                     }, element.selector);
                     
-                    if (!clicked) {
+                    if (clicked.success) {
+                        console.log(`[SPANavigator] 备用点击成功，使用策略: ${clicked.strategy}`);
+                    } else {
                         throw new Error('所有备用策略都失败了');
                     }
+                } else {
+                    throw new Error('元素不支持备用点击策略');
                 }
             } catch (backupError) {
                 console.warn(`[SPANavigator] 备用点击也失败: ${backupError.message}`);

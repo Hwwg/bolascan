@@ -1,27 +1,27 @@
 {
   "context": "click-BUTTON-按钮-Click here-7",
-  "timestamp": "2025-05-24T07:53:47.684Z",
+  "timestamp": "2025-05-24T09:39:43.903Z",
   "count": 2,
   "requests": [
     {
-      "id": "i93sm9pras",
+      "id": "g3yz9hbmz4m",
       "type": "request",
       "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/resend_email",
       "method": "POST",
       "resourceType": "fetch",
       "headers": {
-        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3Mjc3NiwiZXhwIjoxNzQ4Njc3NTc2LCJyb2xlIjoidXNlciJ9.sRTOsX7vP-LbMjMKwAqYSb5rKVexBnF_p13TG1uMnTjwQ8Tpv-ejVW3w6sRkoHQYT6NnA8_uU1ye28Yun007yA7xB6RZ9wvsf0MJZtZh6eawxslAaaiZe6x_XDE929UwLqosVXXQhUd9CAV_DJBDNsyvHpB7HEiCvfyPGEcTXndZVm5asZXHqmxJPgFgUdw062YRFq9joKWaVUnj4vIa8QVg8MJlXC9hHhIXrfqDrKtFvaz6HKUr9N8fz3aRCyJDwVlmragsX5FK5uxOpqZip35misZUflH8yVsA69BfHdWgF_gBnO1BOLc4EpY2iA0okM4gVqfawit6o61akLPKUA",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODA3OTUzOSwiZXhwIjoxNzQ4Njg0MzM5LCJyb2xlIjoidXNlciJ9.NSonzofKnOPJg8q34wXFY3F-aNx_FPSGKYcUbBnPQgda_7tsO2ymZ8e3AgH3bSD2a95nKt2MNsbcne38w5M_iIhkVdUBuox6iVOWKQuWptB7lcta6Zgu_U1_PDnVxsLcPQ6mKFUY-g55PIj4t6Ae1fbzMjiYEoToUwP9SJphpK67N8NWWMtE9MLEaJH7F78PntLOWckItbfSZFVQnTSagfu3jfVvw1jb3XUfZnIM9w_dCKjAnbKPFCIBTusP6FPqFQQlDF6FPCt8nxrmltr1T9WCGjJGrMkIeIR19zR1J9HNZTRAllXiRROLqmH63hUX-eFhEhUxjSn10qSWwW5x7g",
         "referer": "http://10.15.196.160:8888/dashboard",
         "accept-language": "zh-CN,zh;q=0.9",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
         "content-type": "application/json"
       },
-      "timestamp": 1748072788719,
+      "timestamp": 1748079565199,
       "context": "click-BUTTON-按钮-Click here-7"
     },
     {
-      "id": "5eq2mdfhes3",
-      "requestId": "i93sm9pras",
+      "id": "opbi7fd7r2g",
+      "requestId": "g3yz9hbmz4m",
       "type": "response",
       "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/resend_email",
       "status": 200,
@@ -31,7 +31,7 @@
         "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
         "connection": "keep-alive",
         "content-type": "application/json",
-        "date": "Sat, 24 May 2025 07:46:28 GMT",
+        "date": "Sat, 24 May 2025 09:39:25 GMT",
         "expires": "0",
         "keep-alive": "timeout=4",
         "pragma": "no-cache",
@@ -45,7 +45,7 @@
       },
       "method": "POST",
       "contentType": "application/json",
-      "timestamp": 1748072788794,
+      "timestamp": 1748079565389,
       "context": "click-BUTTON-按钮-Click here-7",
       "size": 184,
       "body": "{\"message\":\"Your newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal. \",\"status\":200}",

@@ -31,13 +31,80 @@ class ElementDetector {
                 'li[tabindex]', 'li[data-menu-id]', 'li.ant-menu-item',
                 'li.nav-item', 'li.item', 'li[role]'
             ];
+            
+            /**
+             * 生成高质量的CSS选择器
+             * @param {Element} element - DOM元素
+             * @returns {string} CSS选择器
+             */
+            function generateCSSSelector(element) {
+                if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+                    return '';
+                }
+                
+                // 如果有唯一的ID，优先使用
+                if (element.id && document.querySelectorAll('#' + element.id).length === 1) {
+                    return '#' + element.id;
+                }
+                
+                // 构建选择器路径
+                const path = [];
+                let current = element;
+                
+                while (current && current.nodeType === Node.ELEMENT_NODE && current !== document.body) {
+                    let selector = current.tagName.toLowerCase();
+                    
+                    // 添加class信息（选择有意义的class）
+                    if (current.className && typeof current.className === 'string') {
+                        const classes = current.className.split(/\s+/).filter(cls => 
+                            cls && !cls.match(/^(ng-|v-|_|css-)/)); // 过滤框架生成的class
+                        if (classes.length > 0) {
+                            selector += '.' + classes.slice(0, 2).join('.'); // 最多使用2个class
+                        }
+                    }
+                    
+                    // 添加关键属性
+                    if (current.getAttribute('role')) {
+                        selector += '[role="' + current.getAttribute('role') + '"]';
+                    }
+                    if (current.getAttribute('data-testid')) {
+                        selector += '[data-testid="' + current.getAttribute('data-testid') + '"]';
+                    }
+                    
+                    // 如果当前选择器已经唯一，就停止
+                    const tempPath = [selector, ...path].join(' > ');
+                    if (document.querySelectorAll(tempPath).length === 1) {
+                        return tempPath;
+                    }
+                    
+                    // 添加nth-child（作为最后手段）
+                    const siblings = Array.from(current.parentNode?.children || []);
+                    const index = siblings.indexOf(current);
+                    if (index >= 0 && siblings.length > 1) {
+                        selector += ':nth-child(' + (index + 1) + ')';
+                    }
+                    
+                    path.unshift(selector);
+                    current = current.parentElement;
+                    
+                    // 防止路径过长
+                    if (path.length > 6) break;
+                }
+                
+                return path.join(' > ');
+            }
+            
             const nodes = Array.from(document.querySelectorAll(selectors.join(',')));
-            return nodes.map(node => ({
-                tag: node.tagName,
-                selector: node.outerHTML,
-                visible: !!(node.offsetWidth || node.offsetHeight || node.getClientRects().length),
-                text: node.innerText || node.value || ''
-            }));
+            return nodes.map(node => {
+                const cssSelector = generateCSSSelector(node);
+                return {
+                    tag: node.tagName,
+                    selector: cssSelector || node.tagName.toLowerCase(), // 使用CSS选择器而不是outerHTML
+                    visible: !!(node.offsetWidth || node.offsetHeight || node.getClientRects().length),
+                    text: (node.innerText || node.value || '').trim().substring(0, 100), // 限制文本长度
+                    outerHTML: node.outerHTML.substring(0, 200) + '...' // 保留HTML用于调试，但限制长度
+                };
+            });
         });
     }
 
