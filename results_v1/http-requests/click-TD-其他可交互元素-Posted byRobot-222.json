@@ -1,0 +1,155 @@
+{
+  "context": "click-TD-其他可交互元素-Posted byRobot-222",
+  "timestamp": "2025-05-25T10:15:33.111Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "tcla8f4cdu",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=cWWKLHVCzQCqAtSn2fV9LX"
+      },
+      "timestamp": 1748163667969,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222"
+    },
+    {
+      "id": "7pec51dlap5",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/cWWKLHVCzQCqAtSn2fV9LX",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=cWWKLHVCzQCqAtSn2fV9LX",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163667969,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222"
+    },
+    {
+      "id": "xdaz6um0fsn",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=cWWKLHVCzQCqAtSn2fV9LX"
+      },
+      "timestamp": 1748163667970,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222"
+    },
+    {
+      "id": "eo0srk3dzw7",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:01:08 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:01:08 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163667970,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222",
+      "size": 0
+    },
+    {
+      "id": "uzmvmj6hpd",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:01:08 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:01:08 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163667985,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222",
+      "size": 0
+    },
+    {
+      "id": "2enqlnig4lt",
+      "requestId": "6lpkydxcrs7",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/cWWKLHVCzQCqAtSn2fV9LX",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 09:01:08 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163667985,
+      "context": "click-TD-其他可交互元素-Posted byRobot-222",
+      "size": 549,
+      "body": "{\"id\":\"cWWKLHVCzQCqAtSn2fV9LX\",\"title\":\"Title 3\",\"content\":\"Hello world 3\",\"author\":{\"nickname\":\"Robot\",\"email\":\"robot001@example.com\",\"vehicleid\":\"4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.954Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。希望这个评论能够被成功提交并保存。\",\"CreatedAt\":\"2025-05-25T07:24:47.005Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:24:47.005Z\"}}],\"authorid\":3,\"CreatedAt\":\"2025-05-01T08:57:40.954Z\"}\n",
+      "jsonData": {
+        "id": "cWWKLHVCzQCqAtSn2fV9LX",
+        "title": "Title 3",
+        "content": "Hello world 3",
+        "author": {
+          "nickname": "Robot",
+          "email": "robot001@example.com",
+          "vehicleid": "4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5",
+          "profile_pic_url": "",
+          "created_at": "2025-05-01T08:57:40.954Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。希望这个评论能够被成功提交并保存。",
+            "CreatedAt": "2025-05-25T07:24:47.005Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:24:47.005Z"
+            }
+          }
+        ],
+        "authorid": 3,
+        "CreatedAt": "2025-05-01T08:57:40.954Z"
+      }
+    }
+  ]
+}

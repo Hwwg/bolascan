@@ -1,0 +1,215 @@
+{
+  "context": "click-SPAN-其他可交互元素-huang-129",
+  "timestamp": "2025-05-25T10:15:33.097Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "4bhbanyu7nk",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=7aDB3EhQKNYDmAKZA2VWfe"
+      },
+      "timestamp": 1748163362644,
+      "context": "click-SPAN-其他可交互元素-huang-129"
+    },
+    {
+      "id": "kdna0egop4b",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/7aDB3EhQKNYDmAKZA2VWfe",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=7aDB3EhQKNYDmAKZA2VWfe",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163362645,
+      "context": "click-SPAN-其他可交互元素-huang-129"
+    },
+    {
+      "id": "m1gab577bug",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=7aDB3EhQKNYDmAKZA2VWfe"
+      },
+      "timestamp": 1748163362657,
+      "context": "click-SPAN-其他可交互元素-huang-129"
+    },
+    {
+      "id": "o8j5htjxcip",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:56:02 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:56:02 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163362658,
+      "context": "click-SPAN-其他可交互元素-huang-129",
+      "size": 0
+    },
+    {
+      "id": "zgyz58r3s2h",
+      "requestId": "pk5pqw9s44",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/7aDB3EhQKNYDmAKZA2VWfe",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 08:56:02 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163362658,
+      "context": "click-SPAN-其他可交互元素-huang-129",
+      "size": 1836,
+      "body": "{\"id\":\"7aDB3EhQKNYDmAKZA2VWfe\",\"title\":\"如何进行Web自动化测试\",\"content\":\"在现代软件开发中，Web自动化测试是确保应用程序质量的重要手段。本文将探讨Web自动化测试的基本原理、工具和最佳实践。通过使用自动化测试，可以提高测试效率，减少人工错误，并确保在不同环境中的一致性。\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-24T14:39:06.184Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。希望这个评论能帮助我们改进用户体验。\",\"CreatedAt\":\"2025-05-25T07:13:31.072Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:13:31.072Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。\",\"CreatedAt\":\"2025-05-25T07:13:47.477Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:13:47.477Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。这个评论将用于测试系统的性能和用户体验。希望它能提供有价值的反馈。\",\"CreatedAt\":\"2025-05-25T07:14:04.093Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:14:04.093Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。该系统的用户体验良好，但仍有提升空间。\",\"CreatedAt\":\"2025-05-25T07:14:21.352Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:14:21.352Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。该系统的用户体验良好，但仍有提升空间。\",\"CreatedAt\":\"2025-05-25T07:14:43.486Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:14:43.486Z\"}},{\"id\":\"\",\"content\":\"这是一个示例评论，用于测试表单的有效性。希望能为系统的改进提供有价值的反馈。整体体验不错，但在某些功能上还有优化的空间。\",\"CreatedAt\":\"2025-05-25T07:15:01.256Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:15:01.256Z\"}}],\"authorid\":8,\"CreatedAt\":\"2025-05-24T14:39:06.184Z\"}\n",
+      "jsonData": {
+        "id": "7aDB3EhQKNYDmAKZA2VWfe",
+        "title": "如何进行Web自动化测试",
+        "content": "在现代软件开发中，Web自动化测试是确保应用程序质量的重要手段。本文将探讨Web自动化测试的基本原理、工具和最佳实践。通过使用自动化测试，可以提高测试效率，减少人工错误，并确保在不同环境中的一致性。",
+        "author": {
+          "nickname": "huang",
+          "email": "1045225639@qq.com",
+          "vehicleid": "",
+          "profile_pic_url": "",
+          "created_at": "2025-05-24T14:39:06.184Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。希望这个评论能帮助我们改进用户体验。",
+            "CreatedAt": "2025-05-25T07:13:31.072Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:13:31.072Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。",
+            "CreatedAt": "2025-05-25T07:13:47.477Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:13:47.477Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。这个评论将用于测试系统的性能和用户体验。希望它能提供有价值的反馈。",
+            "CreatedAt": "2025-05-25T07:14:04.093Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:14:04.093Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。该系统的用户体验良好，但仍有提升空间。",
+            "CreatedAt": "2025-05-25T07:14:21.352Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:14:21.352Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。希望这个评论能够帮助改进系统。该系统的用户体验良好，但仍有提升空间。",
+            "CreatedAt": "2025-05-25T07:14:43.486Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:14:43.486Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个示例评论，用于测试表单的有效性。希望能为系统的改进提供有价值的反馈。整体体验不错，但在某些功能上还有优化的空间。",
+            "CreatedAt": "2025-05-25T07:15:01.256Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:15:01.256Z"
+            }
+          }
+        ],
+        "authorid": 8,
+        "CreatedAt": "2025-05-24T14:39:06.184Z"
+      }
+    },
+    {
+      "id": "9ev352n7ifh",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:56:02 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:56:02 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163362761,
+      "context": "click-SPAN-其他可交互元素-huang-129",
+      "size": 0
+    }
+  ]
+}

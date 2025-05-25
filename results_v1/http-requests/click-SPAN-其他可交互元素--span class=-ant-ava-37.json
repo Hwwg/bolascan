@@ -1,0 +1,397 @@
+{
+  "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+  "timestamp": "2025-05-25T10:15:33.155Z",
+  "count": 20,
+  "requests": [
+    {
+      "id": "88dr4nuyw3j",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748166873813,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "8ooif89goy4",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:54:34 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:54:34 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748166873814,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "d7kffrr6wuh",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167003228,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "g1cpevajzsl",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:56:43 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:56:43 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167003228,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "ax0qw1f8utf",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167130844,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "8vgffgi9q6t",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:58:51 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:58:51 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167130844,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "sbjekscdpo",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167264349,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "89iiwd4dz4r",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:01:04 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:01:04 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167264350,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "ul2jgk8d4d",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167397002,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "q4giic5jhu",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:03:17 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:03:17 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167397003,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "648dx3eaijq",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167529582,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "zo7ss32ha3i",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:05:29 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:05:29 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167529583,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "ttzw9lg6cl",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167663242,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "i6g6tr74rf",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:07:43 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:07:43 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167663242,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "b5xmsc44wbr",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167795011,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "sdw2d1ghsq",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:09:55 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:09:55 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167795099,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "8ex2frvs46o",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748167929561,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "s2ejn5kkd7m",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:12:09 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:12:09 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748167929562,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    },
+    {
+      "id": "vi5lzie1glr",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/my-profile"
+      },
+      "timestamp": 1748168062286,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37"
+    },
+    {
+      "id": "qgb89q86ovo",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 10:14:22 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 10:14:22 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748168062287,
+      "context": "click-SPAN-其他可交互元素-<span class=\"ant-ava-37",
+      "size": 0
+    }
+  ]
+}

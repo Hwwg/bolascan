@@ -1,0 +1,692 @@
+{
+  "context": "click-SPAN-菜单项-Shop-27",
+  "timestamp": "2025-05-25T10:15:33.120Z",
+  "count": 30,
+  "requests": [
+    {
+      "id": "f369mp2obrf",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163899550,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "2ar1xjc64f5",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748163899656,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "y8eor2zj22f",
+      "requestId": "8ebg9ok3aqo",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "13708",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-358c\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748163899698,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "qy025g77ezm",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748163899698,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "yvk9fleo2g",
+      "requestId": "kphuzq9yli",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "7844",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-1ea4\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748163899698,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "dg8z9d2d6j",
+      "requestId": "subnkq3ffq",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:04:59 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163899699,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 219,
+      "body": "{\"products\":[{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},{\"id\":1,\"name\":\"Seat\",\"price\":\"10.00\",\"image_url\":\"images/seat.svg\"}],\"credit\":0.0,\"next_offset\":null,\"previous_offset\":null,\"count\":2}",
+      "jsonData": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          {
+            "id": 1,
+            "name": "Seat",
+            "price": "10.00",
+            "image_url": "images/seat.svg"
+          }
+        ],
+        "credit": 0,
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 2
+      }
+    },
+    {
+      "id": "jptopcnfa1",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748165377317,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "tnkqfyzzxal",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748165377332,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "57lgieljgsr",
+      "requestId": "8ebg9ok3aqo",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "13708",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-358c\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748165377332,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "9nrg9vstqc8",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748165377333,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "ji4ii0bt0ld",
+      "requestId": "kphuzq9yli",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "7844",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-1ea4\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748165377333,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "la09rj3mlpd",
+      "requestId": "subnkq3ffq",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:29:37 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748165377333,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 219,
+      "body": "{\"products\":[{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},{\"id\":1,\"name\":\"Seat\",\"price\":\"10.00\",\"image_url\":\"images/seat.svg\"}],\"credit\":0.0,\"next_offset\":null,\"previous_offset\":null,\"count\":2}",
+      "jsonData": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          {
+            "id": 1,
+            "name": "Seat",
+            "price": "10.00",
+            "image_url": "images/seat.svg"
+          }
+        ],
+        "credit": 0,
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 2
+      }
+    },
+    {
+      "id": "eo7iiwh33be",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748165763691,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "ht987dwopfr",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748165763694,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "r7zyuzmxq7a",
+      "requestId": "8ebg9ok3aqo",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "13708",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-358c\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748165763694,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "e1fssbvor2i",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748165763694,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "rtnpmth20i",
+      "requestId": "kphuzq9yli",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "7844",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-1ea4\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748165763694,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "p5dvn6nmtw",
+      "requestId": "subnkq3ffq",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:36:03 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748165763695,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 219,
+      "body": "{\"products\":[{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},{\"id\":1,\"name\":\"Seat\",\"price\":\"10.00\",\"image_url\":\"images/seat.svg\"}],\"credit\":0.0,\"next_offset\":null,\"previous_offset\":null,\"count\":2}",
+      "jsonData": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          {
+            "id": 1,
+            "name": "Seat",
+            "price": "10.00",
+            "image_url": "images/seat.svg"
+          }
+        ],
+        "credit": 0,
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 2
+      }
+    },
+    {
+      "id": "y3m4jowpa5",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748166366560,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "okjydkry4j",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748166366624,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "h1kzpz36r8",
+      "requestId": "8ebg9ok3aqo",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "13708",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-358c\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748166366624,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "uupzdt67q0q",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748166366624,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "el4zd46pu9m",
+      "requestId": "kphuzq9yli",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "7844",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-1ea4\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748166366624,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "ws2vmfx5ns",
+      "requestId": "subnkq3ffq",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:46:06 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748166366624,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 219,
+      "body": "{\"products\":[{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},{\"id\":1,\"name\":\"Seat\",\"price\":\"10.00\",\"image_url\":\"images/seat.svg\"}],\"credit\":0.0,\"next_offset\":null,\"previous_offset\":null,\"count\":2}",
+      "jsonData": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          {
+            "id": 1,
+            "name": "Seat",
+            "price": "10.00",
+            "image_url": "images/seat.svg"
+          }
+        ],
+        "credit": 0,
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 2
+      }
+    },
+    {
+      "id": "hxy0qanrws",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748166579948,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "wr3dp8w7ei",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748166579950,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "knn3emjfnn",
+      "requestId": "8ebg9ok3aqo",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/wheel.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "13708",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-358c\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748166579950,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "xzuturr69v",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/shop"
+      },
+      "timestamp": 1748166579950,
+      "context": "click-SPAN-菜单项-Shop-27"
+    },
+    {
+      "id": "gvybomoey04",
+      "requestId": "kphuzq9yli",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/images/seat.svg",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-length": "7844",
+        "date": "Sun, 25 May 2025 08:43:52 GMT",
+        "etag": "\"66473830-1ea4\"",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 17 May 2024 10:57:52 GMT",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/svg+xml",
+      "timestamp": 1748166580036,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 0
+    },
+    {
+      "id": "cxbbq79ms2f",
+      "requestId": "subnkq3ffq",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:49:40 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748166580037,
+      "context": "click-SPAN-菜单项-Shop-27",
+      "size": 219,
+      "body": "{\"products\":[{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},{\"id\":1,\"name\":\"Seat\",\"price\":\"10.00\",\"image_url\":\"images/seat.svg\"}],\"credit\":0.0,\"next_offset\":null,\"previous_offset\":null,\"count\":2}",
+      "jsonData": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          {
+            "id": 1,
+            "name": "Seat",
+            "price": "10.00",
+            "image_url": "images/seat.svg"
+          }
+        ],
+        "credit": 0,
+        "next_offset": null,
+        "previous_offset": null,
+        "count": 2
+      }
+    }
+  ]
+}

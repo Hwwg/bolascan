@@ -1,0 +1,267 @@
+{
+  "http://10.15.196.160:8888/dashboard": [
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout.page-container > main.ant-layout-content > div.ant-row > div.ant-col.alert-msg-box > div.ant-alert.ant-alert-warning.ant-alert-with-description.ant-alert-no-icon > div.ant-alert-content > div.ant-alert-description:nth-child(2) > button.alert-msg.btn",
+        "tag": "BUTTON",
+        "text": "Click here",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<button type=\"button\" class=\"alert-msg btn\"> Click here </button>",
+          "innerHTML": " Click here ",
+          "attributes": {
+            "type": "button",
+            "class": "alert-msg btn"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "SuccessYour newly purchased Vehicle Details have been sent to you email address. If you have used example.com email, check your email using the MailHog web portal. OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    }
+  ],
+  "http://10.15.196.160:8888/shop": [
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(1) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn",
+        "tag": "BUTTON",
+        "text": "Buy",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<button type=\"button\" class=\"ant-btn ant-btn-round ant-btn-primary ant-btn-lg buy-btn\"><span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 3...<!-- HTML截断 -->",
+          "innerHTML": "<span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575....<!-- 内容截断 -->",
+          "attributes": {
+            "type": "button",
+            "class": "ant-btn ant-btn-round ant-btn-primary ant-btn-lg buy-btn"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(1) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn > span.anticon.anticon-shopping-cart:nth-child(1)",
+        "tag": "SPAN",
+        "text": "",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6...<!-- HTML截断 -->",
+          "innerHTML": "<svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 ...<!-- 内容截断 -->",
+          "attributes": {
+            "role": "img",
+            "aria-label": "shopping-cart",
+            "class": "anticon anticon-shopping-cart"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(1) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn > span:nth-child(2)",
+        "tag": "SPAN",
+        "text": "Buy",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<span>Buy</span>",
+          "innerHTML": "Buy",
+          "attributes": {}
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(2) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn",
+        "tag": "BUTTON",
+        "text": "Buy",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<button type=\"button\" class=\"ant-btn ant-btn-round ant-btn-primary ant-btn-lg buy-btn\"><span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 3...<!-- HTML截断 -->",
+          "innerHTML": "<span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575....<!-- 内容截断 -->",
+          "attributes": {
+            "type": "button",
+            "class": "ant-btn ant-btn-round ant-btn-primary ant-btn-lg buy-btn"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(2) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn > span.anticon.anticon-shopping-cart:nth-child(1)",
+        "tag": "SPAN",
+        "text": "",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<span role=\"img\" aria-label=\"shopping-cart\" class=\"anticon anticon-shopping-cart\"><svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 01-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6...<!-- HTML截断 -->",
+          "innerHTML": "<svg viewBox=\"0 0 1024 1024\" focusable=\"false\" data-icon=\"shopping-cart\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 00-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 100 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 00-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 00-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 00-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 ...<!-- 内容截断 -->",
+          "attributes": {
+            "role": "img",
+            "aria-label": "shopping-cart",
+            "class": "anticon anticon-shopping-cart"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "body > div > div.ant-spin-nested-loading > div.ant-spin-container > section.ant-layout > main.ant-layout-content.layout-content > section.ant-layout > main.ant-layout-content > div.ant-row:nth-child(1) > div.ant-col.ant-col-8:nth-child(2) > div.ant-card.ant-card-bordered.product-card > div.ant-card-body:nth-child(2) > div.ant-card-meta > div.ant-card-meta-detail > div.ant-card-meta-description > button.ant-btn.ant-btn-round.ant-btn-primary.ant-btn-lg.buy-btn > span:nth-child(2)",
+        "tag": "SPAN",
+        "text": "Buy",
+        "isVisible": true,
+        "type": "button",
+        "html": {
+          "outerHTML": "<span>Buy</span>",
+          "innerHTML": "Buy",
+          "attributes": {}
+        }
+      },
+      "type": "popup",
+      "actionType": "click",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "FailedInsufficient Balance. Please apply coupons to get more balance!OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    }
+  ],
+  "http://10.15.196.160:8888/new-post": [
+    {
+      "element": {
+        "selector": "#new-post",
+        "tag": "FORM",
+        "text": "TitleDescriptionAdd New Post",
+        "isVisible": true,
+        "type": "form",
+        "html": {
+          "outerHTML": "<form id=\"new-post\" class=\"ant-form ant-form-horizontal\"><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-label ant-col-sm-8\"><label for=\"new-post_title\" class=\"ant-form-item-required\" title=\"Title\">Title</label></div><div class=\"ant-col ant-form-item-control ant-col-sm-16\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><input placeholder=\"Post Title\" id=\"new-post_title\" aria-required=\"true\" class=\"ant-input\" type=\"text\" value=\"\"></div></div></div></div></div><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-label ant-col-sm-8\"><label for=\"new-post_content\" class=\"ant-form-item-required\" title=\"Description\">Description</label></div><div class=\"ant-col ant-form-item-control ant-col-sm-16\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><textarea id=\"new-post_content\" aria-required=\"true\" class=\"ant-input...<!-- HTML截断 -->",
+          "innerHTML": "<div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-label ant-col-sm-8\"><label for=\"new-post_title\" class=\"ant-form-item-required\" title=\"Title\">Title</label></div><div class=\"ant-col ant-form-item-control ant-col-sm-16\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><input placeholder=\"Post Title\" id=\"new-post_title\" aria-required=\"true\" class=\"ant-input\" type=\"text\" value=\"\"></div></div></div></div></div><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-label ant-col-sm-8\"><label for=\"new-post_content\" class=\"ant-form-item-required\" title=\"Description\">Description</label></div><div class=\"ant-col ant-form-item-control ant-col-sm-16\"><div class=\"ant-...<!-- 内容截断 -->",
+          "attributes": {
+            "id": "new-post",
+            "class": "ant-form ant-form-horizontal"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "form-submit",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "SuccessPost Created.OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    },
+    {
+      "element": {
+        "selector": "#new-post_content",
+        "tag": "TEXTAREA",
+        "text": "",
+        "isVisible": true,
+        "type": "form",
+        "html": {
+          "outerHTML": "<textarea id=\"new-post_content\" aria-required=\"true\" class=\"ant-input\"></textarea>",
+          "innerHTML": "",
+          "attributes": {
+            "id": "new-post_content",
+            "aria-required": "true",
+            "class": "ant-input"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "form-submit",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "SuccessPost Created.OK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    }
+  ],
+  "http://10.15.196.160:8888/change-email": [
+    {
+      "element": {
+        "selector": "#email",
+        "tag": "FORM",
+        "text": "Send Email Verification Token",
+        "isVisible": true,
+        "type": "form",
+        "html": {
+          "outerHTML": "<form id=\"email\" class=\"ant-form ant-form-horizontal\"><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><input placeholder=\"New Email ID\" id=\"email_new_email\" aria-required=\"true\" class=\"ant-input input-style\" type=\"text\" value=\"\"></div></div></div></div></div><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><button type=\"submit\" class=\"ant-btn ant-btn-primary form-button\"><span>Send Email Verification Token</span></button></div></div></div></div></div></form>",
+          "innerHTML": "<div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><input placeholder=\"New Email ID\" id=\"email_new_email\" aria-required=\"true\" class=\"ant-input input-style\" type=\"text\" value=\"\"></div></div></div></div></div><div class=\"ant-form-item\"><div class=\"ant-row ant-form-item-row\"><div class=\"ant-col ant-form-item-control\"><div class=\"ant-form-item-control-input\"><div class=\"ant-form-item-control-input-content\"><button type=\"submit\" class=\"ant-btn ant-btn-primary form-button\"><span>Send Email Verification Token</span></button></div></div></div></div></div>",
+          "attributes": {
+            "id": "email",
+            "class": "ant-form ant-form-horizontal"
+          }
+        }
+      },
+      "type": "popup",
+      "actionType": "form-submit",
+      "popupInfo": {
+        "hasPopup": true,
+        "text": "SuccessThe token has been sent to your email. If you have used example.com email, check your email using the MailHog web portal.   testuser@example.comOK",
+        "messageType": "info",
+        "selector": ".ant-modal-wrap:not([style*=\"display: none\"])",
+        "className": "ant-modal-wrap"
+      }
+    }
+  ]
+}

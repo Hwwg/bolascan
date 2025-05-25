@@ -1,0 +1,215 @@
+{
+  "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190",
+  "timestamp": "2025-05-25T10:15:33.105Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "frrpp20ls0h",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=4fMa55rqZjrmTFwThJfUim"
+      },
+      "timestamp": 1748163561451,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190"
+    },
+    {
+      "id": "25lg1t2jetm",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/4fMa55rqZjrmTFwThJfUim",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=4fMa55rqZjrmTFwThJfUim",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163561451,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190"
+    },
+    {
+      "id": "tyk7p3i22uf",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:59:21 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:59:21 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163561462,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190",
+      "size": 0
+    },
+    {
+      "id": "7cv85emwjpx",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=4fMa55rqZjrmTFwThJfUim"
+      },
+      "timestamp": 1748163561489,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190"
+    },
+    {
+      "id": "dr7vdis7u3",
+      "requestId": "gck5qp1x127",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/4fMa55rqZjrmTFwThJfUim",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 08:59:21 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163561492,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190",
+      "size": 1942,
+      "body": "{\"id\":\"4fMa55rqZjrmTFwThJfUim\",\"title\":\"如何进行Web自动化测试\",\"content\":\"在这篇文章中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试能够帮助开发团队提高测试效率、减少人工错误，并加快发布周期。我们将涵盖常见的自动化测试工具，如 Selenium、Cypress 和 Puppeteer，以及如何编写有效的测试用例。\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-24T14:27:05.492Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。希望能顺利提交并显示在页面上。\",\"CreatedAt\":\"2025-05-25T07:21:24.719Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:21:24.719Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单的文本域功能。希望这个评论能够帮助开发人员改进产品。\",\"CreatedAt\":\"2025-05-25T07:21:41.89Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:21:41.89Z\"}},{\"id\":\"\",\"content\":\"这是一个用于测试表单的多行文本评论。希望通过这些测试数据帮助开发团队识别和修复潜在的问题，以提升用户体验。\",\"CreatedAt\":\"2025-05-25T07:21:58.732Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:21:58.732Z\"}},{\"id\":\"\",\"content\":\"这是一个关于产品性能的反馈。我认为在使用过程中有些功能可以进一步优化，比如界面的响应速度和用户体验。希望开发团队能够考虑这些建议，以便提供更好的服务。\",\"CreatedAt\":\"2025-05-25T07:22:21.396Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:22:21.396Z\"}},{\"id\":\"\",\"content\":\"我对这个产品的整体表现非常满意，但我认为可以在功能上进行一些改进。例如，增加更多的自定义选项和优化加载时间，这将大大提升用户体验。期待未来的版本能够考虑这些反馈。\",\"CreatedAt\":\"2025-05-25T07:22:44.932Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:22:44.932Z\"}},{\"id\":\"\",\"content\":\"我对这个产品的性能非常满意，特别是它的稳定性和易用性。不过，我觉得在某些情况下，加载速度可以进一步提升。此外，增加一些新功能可能会让用户体验更加丰富。期待未来的更新！\",\"CreatedAt\":\"2025-05-25T07:23:08.42Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:23:08.42Z\"}}],\"authorid\":8,\"CreatedAt\":\"2025-05-24T14:27:05.492Z\"}\n",
+      "jsonData": {
+        "id": "4fMa55rqZjrmTFwThJfUim",
+        "title": "如何进行Web自动化测试",
+        "content": "在这篇文章中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试能够帮助开发团队提高测试效率、减少人工错误，并加快发布周期。我们将涵盖常见的自动化测试工具，如 Selenium、Cypress 和 Puppeteer，以及如何编写有效的测试用例。",
+        "author": {
+          "nickname": "huang",
+          "email": "1045225639@qq.com",
+          "vehicleid": "",
+          "profile_pic_url": "",
+          "created_at": "2025-05-24T14:27:05.492Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。希望能顺利提交并显示在页面上。",
+            "CreatedAt": "2025-05-25T07:21:24.719Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:21:24.719Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单的文本域功能。希望这个评论能够帮助开发人员改进产品。",
+            "CreatedAt": "2025-05-25T07:21:41.89Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:21:41.89Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个用于测试表单的多行文本评论。希望通过这些测试数据帮助开发团队识别和修复潜在的问题，以提升用户体验。",
+            "CreatedAt": "2025-05-25T07:21:58.732Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:21:58.732Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个关于产品性能的反馈。我认为在使用过程中有些功能可以进一步优化，比如界面的响应速度和用户体验。希望开发团队能够考虑这些建议，以便提供更好的服务。",
+            "CreatedAt": "2025-05-25T07:22:21.396Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:22:21.396Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "我对这个产品的整体表现非常满意，但我认为可以在功能上进行一些改进。例如，增加更多的自定义选项和优化加载时间，这将大大提升用户体验。期待未来的版本能够考虑这些反馈。",
+            "CreatedAt": "2025-05-25T07:22:44.932Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:22:44.932Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "我对这个产品的性能非常满意，特别是它的稳定性和易用性。不过，我觉得在某些情况下，加载速度可以进一步提升。此外，增加一些新功能可能会让用户体验更加丰富。期待未来的更新！",
+            "CreatedAt": "2025-05-25T07:23:08.42Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:23:08.42Z"
+            }
+          }
+        ],
+        "authorid": 8,
+        "CreatedAt": "2025-05-24T14:27:05.492Z"
+      }
+    },
+    {
+      "id": "15eu7fpqy3",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:59:21 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:59:21 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163561500,
+      "context": "click-IMG-其他可交互元素-<img src=\"/static/me-190",
+      "size": 0
+    }
+  ]
+}

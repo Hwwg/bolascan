@@ -1,0 +1,179 @@
+{
+  "context": "click-SPAN-其他可交互元素-Posted on-108",
+  "timestamp": "2025-05-25T10:15:33.095Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "4trlkei5qof",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=XY4DuV6yEfFqwddAiaZQ2h"
+      },
+      "timestamp": 1748163296361,
+      "context": "click-SPAN-其他可交互元素-Posted on-108"
+    },
+    {
+      "id": "l7073qv0moh",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/XY4DuV6yEfFqwddAiaZQ2h",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=XY4DuV6yEfFqwddAiaZQ2h",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163296362,
+      "context": "click-SPAN-其他可交互元素-Posted on-108"
+    },
+    {
+      "id": "mmxsu28wfxj",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=XY4DuV6yEfFqwddAiaZQ2h"
+      },
+      "timestamp": 1748163296373,
+      "context": "click-SPAN-其他可交互元素-Posted on-108"
+    },
+    {
+      "id": "qo5ssy2e12g",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:54:56 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:54:56 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163296373,
+      "context": "click-SPAN-其他可交互元素-Posted on-108",
+      "size": 0
+    },
+    {
+      "id": "gx97g16fcse",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:54:56 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:54:56 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163296373,
+      "context": "click-SPAN-其他可交互元素-Posted on-108",
+      "size": 0
+    },
+    {
+      "id": "xppmy7xvj1g",
+      "requestId": "zfnjofh0tl",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/XY4DuV6yEfFqwddAiaZQ2h",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 08:54:56 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163296374,
+      "context": "click-SPAN-其他可交互元素-Posted on-108",
+      "size": 1229,
+      "body": "{\"id\":\"XY4DuV6yEfFqwddAiaZQ2h\",\"title\":\"Understanding JSON for Web Automation Testing\",\"content\":\"This is a comprehensive guide on how to use JSON for web automation testing. It covers the basics of JSON structure, how to generate test data, and best practices for ensuring your tests are effective and maintainable.\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-24T14:43:57.157Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单的文本域功能。希望这个评论能顺利提交并被正确处理。\",\"CreatedAt\":\"2025-05-25T07:11:19.64Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:11:19.64Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单的提交功能。希望这个评论能够帮助改善用户体验。\",\"CreatedAt\":\"2025-05-25T07:11:39.66Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:11:39.66Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单的提交功能。希望这个评论能够帮助改善用户体验。非常感谢您提供的服务！\",\"CreatedAt\":\"2025-05-25T07:11:56.268Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:11:56.268Z\"}}],\"authorid\":8,\"CreatedAt\":\"2025-05-24T14:43:57.157Z\"}\n",
+      "jsonData": {
+        "id": "XY4DuV6yEfFqwddAiaZQ2h",
+        "title": "Understanding JSON for Web Automation Testing",
+        "content": "This is a comprehensive guide on how to use JSON for web automation testing. It covers the basics of JSON structure, how to generate test data, and best practices for ensuring your tests are effective and maintainable.",
+        "author": {
+          "nickname": "huang",
+          "email": "1045225639@qq.com",
+          "vehicleid": "",
+          "profile_pic_url": "",
+          "created_at": "2025-05-24T14:43:57.157Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单的文本域功能。希望这个评论能顺利提交并被正确处理。",
+            "CreatedAt": "2025-05-25T07:11:19.64Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:11:19.64Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单的提交功能。希望这个评论能够帮助改善用户体验。",
+            "CreatedAt": "2025-05-25T07:11:39.66Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:11:39.66Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单的提交功能。希望这个评论能够帮助改善用户体验。非常感谢您提供的服务！",
+            "CreatedAt": "2025-05-25T07:11:56.268Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:11:56.268Z"
+            }
+          }
+        ],
+        "authorid": 8,
+        "CreatedAt": "2025-05-24T14:43:57.157Z"
+      }
+    }
+  ]
+}

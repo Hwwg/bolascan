@@ -179,7 +179,7 @@ class MainModule {
             const jumpUrls = [];
             const currentHost = (new URL(url)).host;
             await this._handleClickElements(categories, clickResults, jumpUrls, currentHost, url, depth);
-            // await this._handleFormElements(categories, clickResults, jumpUrls, currentHost, url, depth);
+            await this._handleFormElements(categories, clickResults, jumpUrls, currentHost, url, depth);
             this.resultManager.storeClickResults(url, clickResults);
             console.log(`[MainModule] 标记URL已处理: ${url}`);
             this.urlManager.markUrlProcessed(url);

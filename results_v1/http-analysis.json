@@ -1,0 +1,537 @@
+{
+  "patternsByPath": {
+    "/verify-vehicle": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/static/css/2.07102e08.chunk.css": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/static/css/main.4ac450fe.chunk.css": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/static/js/2.b8091b3e.chunk.js": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/static/js/main.8115eeff.chunk.js": {
+      "count": 3,
+      "methods": {
+        "GET": 3
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      }
+    },
+    "/identity/api/auth/login": {
+      "count": 1,
+      "methods": {
+        "POST": 1
+      },
+      "contexts": {
+        "login-process": 1
+      }
+    },
+    "/identity/api/v2/user/dashboard": {
+      "count": 5,
+      "methods": {
+        "GET": 5
+      },
+      "contexts": {
+        "login-process": 2,
+        "click-DIV-其他可交互元素-crAPI-14": 1,
+        "click-LI-菜单项-Dashboard-17": 1,
+        "click-SPAN-菜单项-Dashboard-18": 1
+      }
+    },
+    "/static/media/default_profile_pic.24d66af2.png": {
+      "count": 7,
+      "methods": {
+        "GET": 7
+      },
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "click-LI-菜单项-Community-21": 1,
+        "click-SPAN-菜单项-Community-22": 1,
+        "click-SPAN-其他可交互元素-<span class=\"ant-ava-35": 1,
+        "click-IMG-其他可交互元素-<img src=\"/static/me-36": 1
+      }
+    },
+    "/identity/api/v2/vehicle/vehicles": {
+      "count": 4,
+      "methods": {
+        "GET": 4
+      },
+      "contexts": {
+        "login-process": 1,
+        "click-DIV-其他可交互元素-crAPI-14": 1,
+        "click-LI-菜单项-Dashboard-17": 1,
+        "click-SPAN-菜单项-Dashboard-18": 1
+      }
+    },
+    "/workshop/api/shop/products": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      }
+    },
+    "/images/wheel.svg": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      }
+    },
+    "/images/seat.svg": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      }
+    },
+    "/community/api/v2/community/posts/recent": {
+      "count": 2,
+      "methods": {
+        "GET": 2
+      },
+      "contexts": {
+        "click-LI-菜单项-Community-21": 1,
+        "click-SPAN-菜单项-Community-22": 1
+      }
+    }
+  },
+  "endpointDetails": {
+    "GET /verify-vehicle": {
+      "method": "GET",
+      "path": "/verify-vehicle",
+      "count": 3,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/verify-vehicle",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/verify-vehicle",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/verify-vehicle",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /static/css/2.07102e08.chunk.css": {
+      "method": "GET",
+      "path": "/static/css/2.07102e08.chunk.css",
+      "count": 3,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/2.07102e08.chunk.css",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /static/css/main.4ac450fe.chunk.css": {
+      "method": "GET",
+      "path": "/static/css/main.4ac450fe.chunk.css",
+      "count": 3,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/css/main.4ac450fe.chunk.css",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /static/js/2.b8091b3e.chunk.js": {
+      "method": "GET",
+      "path": "/static/js/2.b8091b3e.chunk.js",
+      "count": 3,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/2.b8091b3e.chunk.js",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /static/js/main.8115eeff.chunk.js": {
+      "method": "GET",
+      "path": "/static/js/main.8115eeff.chunk.js",
+      "count": 3,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/js/main.8115eeff.chunk.js",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "POST /identity/api/auth/login": {
+      "method": "POST",
+      "path": "/identity/api/auth/login",
+      "count": 1,
+      "contexts": {
+        "login-process": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/auth/login",
+          "method": "POST",
+          "postData": "{\"email\":\"1045225639@qq.com\",\"password\":\"As119801222@\"}",
+          "context": "login-process"
+        }
+      ]
+    },
+    "GET /identity/api/v2/user/dashboard": {
+      "method": "GET",
+      "path": "/identity/api/v2/user/dashboard",
+      "count": 5,
+      "contexts": {
+        "login-process": 2,
+        "click-DIV-其他可交互元素-crAPI-14": 1,
+        "click-LI-菜单项-Dashboard-17": 1,
+        "click-SPAN-菜单项-Dashboard-18": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE3NDY2NCwiZXhwIjoxNzQ4Nzc5NDY0LCJyb2xlIjoidXNlciJ9.p-UsZz5iM2PrVmLhBCa-KDAWXceQFAO9Sr4pg2_Wxqfj8O6IgpyWIXU2KJ2LytayQdGl7eOhVAWi37nwV-ls5vcTtfEzOqPUAfymihnuDXXD5gy-K1OsSyH1NBO42b48idFz91wuNSKuVESOLeb9vHYeHdPhyhCQVYNYkrgPX3H0IzCun_uqSHELKy5N4wbfOBZay1Xs8tHS0IxMbiHLoYEPo56lSrqd9Byz2xoFOlhH1BRHLUayJvvZS3z9-VMMv-4UxPuYkXsQs-7p_2lEElFt3MH2fuJsqwPUU0zqlacnRsZWS9GXu96kxM7EH_lgFwUiJ7_cnGiVIhilXievtw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/user/dashboard",
+          "method": "GET",
+          "context": "click-DIV-其他可交互元素-crAPI-14"
+        }
+      ]
+    },
+    "GET /static/media/default_profile_pic.24d66af2.png": {
+      "method": "GET",
+      "path": "/static/media/default_profile_pic.24d66af2.png",
+      "count": 7,
+      "contexts": {
+        "login-process": 1,
+        "login-verification": 1,
+        "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle": 1,
+        "click-LI-菜单项-Community-21": 1,
+        "click-SPAN-菜单项-Community-22": 1,
+        "click-SPAN-其他可交互元素-<span class=\"ant-ava-35": 1,
+        "click-IMG-其他可交互元素-<img src=\"/static/me-36": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "login-verification"
+        },
+        {
+          "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+          "method": "GET",
+          "context": "page-load-http%3A%2F%2F10.15.196.160%3A8888%2Fverify-vehicle"
+        }
+      ]
+    },
+    "GET /identity/api/v2/vehicle/vehicles": {
+      "method": "GET",
+      "path": "/identity/api/v2/vehicle/vehicles",
+      "count": 4,
+      "contexts": {
+        "login-process": 1,
+        "click-DIV-其他可交互元素-crAPI-14": 1,
+        "click-LI-菜单项-Dashboard-17": 1,
+        "click-SPAN-菜单项-Dashboard-18": 1
+      },
+      "params": [],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE3NDY2NCwiZXhwIjoxNzQ4Nzc5NDY0LCJyb2xlIjoidXNlciJ9.p-UsZz5iM2PrVmLhBCa-KDAWXceQFAO9Sr4pg2_Wxqfj8O6IgpyWIXU2KJ2LytayQdGl7eOhVAWi37nwV-ls5vcTtfEzOqPUAfymihnuDXXD5gy-K1OsSyH1NBO42b48idFz91wuNSKuVESOLeb9vHYeHdPhyhCQVYNYkrgPX3H0IzCun_uqSHELKy5N4wbfOBZay1Xs8tHS0IxMbiHLoYEPo56lSrqd9Byz2xoFOlhH1BRHLUayJvvZS3z9-VMMv-4UxPuYkXsQs-7p_2lEElFt3MH2fuJsqwPUU0zqlacnRsZWS9GXu96kxM7EH_lgFwUiJ7_cnGiVIhilXievtw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "login-process"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "click-DIV-其他可交互元素-crAPI-14"
+        },
+        {
+          "url": "http://10.15.196.160:8888/identity/api/v2/vehicle/vehicles",
+          "method": "GET",
+          "context": "click-LI-菜单项-Dashboard-17"
+        }
+      ]
+    },
+    "GET /workshop/api/shop/products": {
+      "method": "GET",
+      "path": "/workshop/api/shop/products",
+      "count": 2,
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      },
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE3NDY2NCwiZXhwIjoxNzQ4Nzc5NDY0LCJyb2xlIjoidXNlciJ9.p-UsZz5iM2PrVmLhBCa-KDAWXceQFAO9Sr4pg2_Wxqfj8O6IgpyWIXU2KJ2LytayQdGl7eOhVAWi37nwV-ls5vcTtfEzOqPUAfymihnuDXXD5gy-K1OsSyH1NBO42b48idFz91wuNSKuVESOLeb9vHYeHdPhyhCQVYNYkrgPX3H0IzCun_uqSHELKy5N4wbfOBZay1Xs8tHS0IxMbiHLoYEPo56lSrqd9Byz2xoFOlhH1BRHLUayJvvZS3z9-VMMv-4UxPuYkXsQs-7p_2lEElFt3MH2fuJsqwPUU0zqlacnRsZWS9GXu96kxM7EH_lgFwUiJ7_cnGiVIhilXievtw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-19"
+        },
+        {
+          "url": "http://10.15.196.160:8888/workshop/api/shop/products?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-SPAN-菜单项-Shop-20"
+        }
+      ]
+    },
+    "GET /images/wheel.svg": {
+      "method": "GET",
+      "path": "/images/wheel.svg",
+      "count": 2,
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/images/wheel.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-19"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/wheel.svg",
+          "method": "GET",
+          "context": "click-SPAN-菜单项-Shop-20"
+        }
+      ]
+    },
+    "GET /images/seat.svg": {
+      "method": "GET",
+      "path": "/images/seat.svg",
+      "count": 2,
+      "contexts": {
+        "click-LI-菜单项-Shop-19": 1,
+        "click-SPAN-菜单项-Shop-20": 1
+      },
+      "params": [],
+      "headers": {},
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/images/seat.svg",
+          "method": "GET",
+          "context": "click-LI-菜单项-Shop-19"
+        },
+        {
+          "url": "http://10.15.196.160:8888/images/seat.svg",
+          "method": "GET",
+          "context": "click-SPAN-菜单项-Shop-20"
+        }
+      ]
+    },
+    "GET /community/api/v2/community/posts/recent": {
+      "method": "GET",
+      "path": "/community/api/v2/community/posts/recent",
+      "count": 2,
+      "contexts": {
+        "click-LI-菜单项-Community-21": 1,
+        "click-SPAN-菜单项-Community-22": 1
+      },
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "headers": {
+        "content-type": [
+          "application/json"
+        ],
+        "authorization": [
+          "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE3NDY2NCwiZXhwIjoxNzQ4Nzc5NDY0LCJyb2xlIjoidXNlciJ9.p-UsZz5iM2PrVmLhBCa-KDAWXceQFAO9Sr4pg2_Wxqfj8O6IgpyWIXU2KJ2LytayQdGl7eOhVAWi37nwV-ls5vcTtfEzOqPUAfymihnuDXXD5gy-K1OsSyH1NBO42b48idFz91wuNSKuVESOLeb9vHYeHdPhyhCQVYNYkrgPX3H0IzCun_uqSHELKy5N4wbfOBZay1Xs8tHS0IxMbiHLoYEPo56lSrqd9Byz2xoFOlhH1BRHLUayJvvZS3z9-VMMv-4UxPuYkXsQs-7p_2lEElFt3MH2fuJsqwPUU0zqlacnRsZWS9GXu96kxM7EH_lgFwUiJ7_cnGiVIhilXievtw"
+        ]
+      },
+      "samples": [
+        {
+          "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-LI-菜单项-Community-21"
+        },
+        {
+          "url": "http://10.15.196.160:8888/community/api/v2/community/posts/recent?limit=30&offset=0",
+          "method": "GET",
+          "context": "click-SPAN-菜单项-Community-22"
+        }
+      ]
+    }
+  },
+  "uniqueEndpoints": 13,
+  "totalRequests": 40
+}

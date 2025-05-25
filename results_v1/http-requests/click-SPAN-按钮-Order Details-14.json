@@ -1,0 +1,82 @@
+{
+  "context": "click-SPAN-按钮-Order Details-14",
+  "timestamp": "2025-05-25T10:15:33.127Z",
+  "count": 2,
+  "requests": [
+    {
+      "id": "4hsi9sarwjj",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/orders/13",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/orders?order_id=13",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748164013520,
+      "context": "click-SPAN-按钮-Order Details-14"
+    },
+    {
+      "id": "kcaj93xt6vb",
+      "requestId": "9dh67brgr9",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/workshop/api/shop/orders/13",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "allow": "GET, POST, PUT, HEAD, OPTIONS",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 25 May 2025 09:06:53 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "referrer-policy": "same-origin",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "origin, Cookie",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748164013649,
+      "context": "click-SPAN-按钮-Order Details-14",
+      "size": 549,
+      "body": "{\"order\":{\"id\":13,\"user\":{\"email\":\"1045225639@qq.com\",\"number\":\"15559564603\"},\"product\":{\"id\":2,\"name\":\"Wheel\",\"price\":\"10.00\",\"image_url\":\"images/wheel.svg\"},\"quantity\":1,\"status\":\"return pending\",\"transaction_id\":\"32b0bca0-f642-4503-a05f-2a6ab97d57c8\",\"created_on\":\"2025-05-07T00:49:18.834741\"},\"payment\":{\"transaction_id\":\"32b0bca0-f642-4503-a05f-2a6ab97d57c8\",\"order_id\":13,\"amount\":10,\"paid_on\":\"2025-05-07T00:49:18.834741\",\"card_number\":\"XXXXXXXXXXXX3877\",\"card_owner_name\":\"huang\",\"card_type\":\"Visa\",\"card_expiry\":\"12/2028\",\"currency\":\"USD\"}}",
+      "jsonData": {
+        "order": {
+          "id": 13,
+          "user": {
+            "email": "1045225639@qq.com",
+            "number": "15559564603"
+          },
+          "product": {
+            "id": 2,
+            "name": "Wheel",
+            "price": "10.00",
+            "image_url": "images/wheel.svg"
+          },
+          "quantity": 1,
+          "status": "return pending",
+          "transaction_id": "32b0bca0-f642-4503-a05f-2a6ab97d57c8",
+          "created_on": "2025-05-07T00:49:18.834741"
+        },
+        "payment": {
+          "transaction_id": "32b0bca0-f642-4503-a05f-2a6ab97d57c8",
+          "order_id": 13,
+          "amount": 10,
+          "paid_on": "2025-05-07T00:49:18.834741",
+          "card_number": "XXXXXXXXXXXX3877",
+          "card_owner_name": "huang",
+          "card_type": "Visa",
+          "card_expiry": "12/2028",
+          "currency": "USD"
+        }
+      }
+    }
+  ]
+}

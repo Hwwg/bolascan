@@ -1,0 +1,54 @@
+{
+  "context": "popup-submit-popup-form-1-click-retry2",
+  "timestamp": "2025-05-25T10:15:33.080Z",
+  "count": 2,
+  "requests": [
+    {
+      "id": "hy2k1qi7036",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/coupon/validate-coupon",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/shop",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748162897465,
+      "context": "popup-submit-popup-form-1-click-retry2",
+      "postData": "{\"coupon_code\":\"SUMMER2023\"}",
+      "jsonData": {
+        "coupon_code": "SUMMER2023"
+      }
+    },
+    {
+      "id": "0lpvqxvhder",
+      "requestId": "scf6oqddr3",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/coupon/validate-coupon",
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 08:48:17 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "POST",
+      "contentType": "application/json",
+      "timestamp": 1748162897549,
+      "context": "popup-submit-popup-form-1-click-retry2",
+      "size": 3,
+      "body": "{}\n",
+      "jsonData": {}
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "context": "click-DIV-其他可交互元素-Title 2-240",
+  "timestamp": "2025-05-25T10:15:33.113Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "7cphwa7k1af",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=MyihXBGgo8iEoUQqQ62TB"
+      },
+      "timestamp": 1748163727312,
+      "context": "click-DIV-其他可交互元素-Title 2-240"
+    },
+    {
+      "id": "7cc31ek5c62",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/MyihXBGgo8iEoUQqQ62TB",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=MyihXBGgo8iEoUQqQ62TB",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163727313,
+      "context": "click-DIV-其他可交互元素-Title 2-240"
+    },
+    {
+      "id": "dl5lad48938",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=MyihXBGgo8iEoUQqQ62TB"
+      },
+      "timestamp": 1748163727313,
+      "context": "click-DIV-其他可交互元素-Title 2-240"
+    },
+    {
+      "id": "mpyg80d4rqc",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:02:07 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:02:07 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163727314,
+      "context": "click-DIV-其他可交互元素-Title 2-240",
+      "size": 0
+    },
+    {
+      "id": "e86zf030v2p",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 09:02:07 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 09:02:07 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163727334,
+      "context": "click-DIV-其他可交互元素-Title 2-240",
+      "size": 0
+    },
+    {
+      "id": "kcd06fw4y",
+      "requestId": "gehica9k6wb",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/MyihXBGgo8iEoUQqQ62TB",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 09:02:07 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163727334,
+      "context": "click-DIV-其他可交互元素-Title 2-240",
+      "size": 2151,
+      "body": "{\"id\":\"MyihXBGgo8iEoUQqQ62TB\",\"title\":\"Title 2\",\"content\":\"Hello world 2\",\"author\":{\"nickname\":\"Pogba\",\"email\":\"pogba006@example.com\",\"vehicleid\":\"cd515c12-0fc1-48ae-8b61-9230b70a845b\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-01T08:57:40.952Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能。希望这个评论能顺利通过验证。\",\"CreatedAt\":\"2025-05-25T07:26:31.99Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:26:31.99Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\",\"CreatedAt\":\"2025-05-25T07:26:49.582Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:26:49.582Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\\n这里是第二行内容，进一步测试文本域的多行功能。\\n最后一行结束。\",\"CreatedAt\":\"2025-05-25T07:27:08.398Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:27:08.398Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\\n这里是第二行，测试换行效果。\\n最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\\n最后一行结束。\",\"CreatedAt\":\"2025-05-25T07:27:28.183Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:27:28.183Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\\n这是一个用于测试的评论。我们正在确保文本域可以处理多行输入。\\n这是第二行，继续测试换行功能。\\n最后一行，确认文本域能够完整提交所有内容。最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\\n最后一行结束。\",\"CreatedAt\":\"2025-05-25T07:27:55.085Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:27:55.085Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。包含多行文本，以确保表单能够正确处理。\\n这里是第二行，继续测试换行效果。\\n最后一行，确保能够完整提交，验证文本域的多行输入。这是一个用于测试的评论。我们正在确保文本域可以处理多行输入。\\n这是第二行，继续测试换行功能。\\n最后一行，确认文本域能够完整提交所有内容。最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\\n最后一行结束。\",\"CreatedAt\":\"2025-05-25T07:28:15.821Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:28:15.821Z\"}}],\"authorid\":2,\"CreatedAt\":\"2025-05-01T08:57:40.952Z\"}\n",
+      "jsonData": {
+        "id": "MyihXBGgo8iEoUQqQ62TB",
+        "title": "Title 2",
+        "content": "Hello world 2",
+        "author": {
+          "nickname": "Pogba",
+          "email": "pogba006@example.com",
+          "vehicleid": "cd515c12-0fc1-48ae-8b61-9230b70a845b",
+          "profile_pic_url": "",
+          "created_at": "2025-05-01T08:57:40.952Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能。希望这个评论能顺利通过验证。",
+            "CreatedAt": "2025-05-25T07:26:31.99Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:26:31.99Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。",
+            "CreatedAt": "2025-05-25T07:26:49.582Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:26:49.582Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\n这里是第二行内容，进一步测试文本域的多行功能。\n最后一行结束。",
+            "CreatedAt": "2025-05-25T07:27:08.398Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:27:08.398Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\n这里是第二行，测试换行效果。\n最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\n最后一行结束。",
+            "CreatedAt": "2025-05-25T07:27:28.183Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:27:28.183Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。测试内容可以包括一些示例文本，以确保表单能够正确处理多行输入。\n这是一个用于测试的评论。我们正在确保文本域可以处理多行输入。\n这是第二行，继续测试换行功能。\n最后一行，确认文本域能够完整提交所有内容。最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\n最后一行结束。",
+            "CreatedAt": "2025-05-25T07:27:55.085Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:27:55.085Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。包含多行文本，以确保表单能够正确处理。\n这里是第二行，继续测试换行效果。\n最后一行，确保能够完整提交，验证文本域的多行输入。这是一个用于测试的评论。我们正在确保文本域可以处理多行输入。\n这是第二行，继续测试换行功能。\n最后一行，确认文本域能够完整提交所有内容。最后一行，确保能够完整提交。这里是第二行内容，进一步测试文本域的多行功能。\n最后一行结束。",
+            "CreatedAt": "2025-05-25T07:28:15.821Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:28:15.821Z"
+            }
+          }
+        ],
+        "authorid": 2,
+        "CreatedAt": "2025-05-01T08:57:40.952Z"
+      }
+    }
+  ]
+}

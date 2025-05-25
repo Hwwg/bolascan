@@ -1,0 +1,125 @@
+{
+  "context": "submit-form-1",
+  "timestamp": "2025-05-25T10:15:33.131Z",
+  "count": 4,
+  "requests": [
+    {
+      "id": "mblq2exwg7h",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/new-post",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748164394055,
+      "context": "submit-form-1",
+      "postData": "{\"title\":\"如何进行Web自动化测试\",\"content\":\"在本文中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试是通过编写脚本来测试Web应用程序的功能和性能，可以提高测试的效率和准确性。\"}",
+      "jsonData": {
+        "title": "如何进行Web自动化测试",
+        "content": "在本文中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试是通过编写脚本来测试Web应用程序的功能和性能，可以提高测试的效率和准确性。"
+      }
+    },
+    {
+      "id": "7kn8az5ks0o",
+      "requestId": "mblq2exwg7h",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 09:13:14 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "POST",
+      "contentType": "application/json",
+      "timestamp": 1748164394113,
+      "context": "submit-form-1",
+      "size": 358,
+      "body": "{\"id\":\"TxSU4PHD8SLFThXgeLNybc\",\"title\":\"如何进行Web自动化测试\",\"content\":\"在本文中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试是通过编写脚本来测试Web应用程序的功能和性能，可以提高测试的效率和准确性。\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T09:13:14.189391982Z\"},\"comments\":[],\"authorid\":8,\"CreatedAt\":\"2025-05-25T09:13:14.189392397Z\"}\n",
+      "jsonData": {
+        "id": "TxSU4PHD8SLFThXgeLNybc",
+        "title": "如何进行Web自动化测试",
+        "content": "在本文中，我们将探讨Web自动化测试的基本概念、工具和最佳实践。Web自动化测试是通过编写脚本来测试Web应用程序的功能和性能，可以提高测试的效率和准确性。",
+        "author": {
+          "nickname": "huang",
+          "email": "1045225639@qq.com",
+          "vehicleid": "",
+          "profile_pic_url": "",
+          "created_at": "2025-05-25T09:13:14.189391982Z"
+        },
+        "comments": [],
+        "authorid": 8,
+        "CreatedAt": "2025-05-25T09:13:14.189392397Z"
+      }
+    },
+    {
+      "id": "48obcafqpnr",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/identity/api/v2/user/change-email",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/change-email",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748166779664,
+      "context": "submit-form-1",
+      "postData": "{\"old_email\":\"1045225639@qq.com\",\"new_email\":\"testuser@example.com\"}",
+      "jsonData": {
+        "old_email": "1045225639@qq.com",
+        "new_email": "testuser@example.com"
+      }
+    },
+    {
+      "id": "7jvhv8ylcsg",
+      "requestId": "48obcafqpnr",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/identity/api/v2/user/change-email",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 09:53:00 GMT",
+        "expires": "0",
+        "keep-alive": "timeout=4",
+        "pragma": "no-cache",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked",
+        "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+      },
+      "method": "POST",
+      "contentType": "application/json",
+      "timestamp": 1748166779964,
+      "context": "submit-form-1",
+      "size": 171,
+      "body": "{\"message\":\"The token has been sent to your email. If you have used example.com email, check your email using the MailHog web portal.   testuser@example.com\",\"status\":200}",
+      "jsonData": {
+        "message": "The token has been sent to your email. If you have used example.com email, check your email using the MailHog web portal.   testuser@example.com",
+        "status": 200
+      }
+    }
+  ]
+}

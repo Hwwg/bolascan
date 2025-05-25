@@ -1,0 +1,215 @@
+{
+  "context": "click-SPAN-其他可交互元素-Posted on-180",
+  "timestamp": "2025-05-25T10:15:33.104Z",
+  "count": 6,
+  "requests": [
+    {
+      "id": "ea10ky7yrtb",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=eQJ9QN8Nv3xo2dX2E5xMr"
+      },
+      "timestamp": 1748163526071,
+      "context": "click-SPAN-其他可交互元素-Posted on-180"
+    },
+    {
+      "id": "4p4jyp76fni",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/eQJ9QN8Nv3xo2dX2E5xMr",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMDQ1MjI1NjM5QHFxLmNvbSIsImlhdCI6MTc0ODE2MjU4NywiZXhwIjoxNzQ4NzY3Mzg3LCJyb2xlIjoidXNlciJ9.Lpm58rNw6yDml171gKzKV6I7d71zRfvMLcYvSnvHYWYOZOgfK_EkWKcqZZ2NIXc_DBbvfp3cLBZBLnHdT0QbJx3KIAXEINAz04SGyFF6RuEGQA_C9fBymqhC8DSSfz8xPV6g7sCVF2mOhFnTKUscfelaapel1Nr72XCUWY10tfOsb3KOZcFZST8iWVfR6pLI98MlS6ynQxrxpyK3CcGiKlb04RUPCCCgmrhLL9DyB_KmozYCZDSxcZSLWx739KzDkEn-ihDHs0wpT5oh5oY6RenKvXMV2WYP0q5ptJblJ4JwnLI09hJcfl_Ooi86OA96hhHZqynBQ0zUJI1dDuOW4Q",
+        "referer": "http://10.15.196.160:8888/post?post_id=eQJ9QN8Nv3xo2dX2E5xMr",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "timestamp": 1748163526071,
+      "context": "click-SPAN-其他可交互元素-Posted on-180"
+    },
+    {
+      "id": "2leslxduzlp",
+      "type": "request",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "accept-language": "zh-CN,zh;q=0.9",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "referer": "http://10.15.196.160:8888/post?post_id=eQJ9QN8Nv3xo2dX2E5xMr"
+      },
+      "timestamp": 1748163526072,
+      "context": "click-SPAN-其他可交互元素-Posted on-180"
+    },
+    {
+      "id": "v77jew37qze",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:58:46 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:58:46 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163526072,
+      "context": "click-SPAN-其他可交互元素-Posted on-180",
+      "size": 0
+    },
+    {
+      "id": "rd8fyegdxq",
+      "requestId": "mvh92wsrx3m",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/static/media/default_profile_pic.24d66af2.png",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+        "connection": "keep-alive",
+        "content-length": "21801",
+        "content-type": "image/png",
+        "date": "Sun, 25 May 2025 08:58:46 GMT",
+        "keep-alive": "timeout=4",
+        "last-modified": "Sunday, 25-May-2025 08:58:46 UTC",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1"
+      },
+      "method": "GET",
+      "contentType": "image/png",
+      "timestamp": 1748163526088,
+      "context": "click-SPAN-其他可交互元素-Posted on-180",
+      "size": 0
+    },
+    {
+      "id": "j9b0xzeqtl9",
+      "requestId": "rlvq528km7l",
+      "type": "response",
+      "url": "http://10.15.196.160:8888/community/api/v2/community/posts/eQJ9QN8Nv3xo2dX2E5xMr",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-type": "application/json",
+        "date": "Sun, 25 May 2025 08:58:46 GMT",
+        "keep-alive": "timeout=4",
+        "proxy-connection": "keep-alive",
+        "server": "openresty/1.25.3.1",
+        "transfer-encoding": "chunked"
+      },
+      "method": "GET",
+      "contentType": "application/json",
+      "timestamp": 1748163526088,
+      "context": "click-SPAN-其他可交互元素-Posted on-180",
+      "size": 1863,
+      "body": "{\"id\":\"eQJ9QN8Nv3xo2dX2E5xMr\",\"title\":\"My First Blog Post\",\"content\":\"This is the content of my first blog post. I am excited to share my thoughts and experiences with everyone. Stay tuned for more updates!\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-24T14:35:06.085Z\"},\"comments\":[{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证文本域的输入功能。可以包含多行内容，测试是否能够正确处理长文本。\",\"CreatedAt\":\"2025-05-25T07:18:15.51Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:18:15.51Z\"}},{\"id\":\"\",\"content\":\"这是一条测试评论，用于验证表单提交功能。希望能够正常保存并显示。\",\"CreatedAt\":\"2025-05-25T07:18:31.554Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:18:31.554Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于检查表单的提交和处理功能。期待评论能够正确保存并在页面上显示。\",\"CreatedAt\":\"2025-05-25T07:18:47.285Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:18:47.285Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于确认表单的提交功能是否正常。期待所有信息能够顺利保存并在页面上正确显示。\",\"CreatedAt\":\"2025-05-25T07:19:04.512Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:19:04.512Z\"}},{\"id\":\"\",\"content\":\"这是一个测试评论，用于验证表单提交功能的有效性。我们期待所有信息能够顺利保存并在页面上正确显示，以确保用户体验的流畅性。\",\"CreatedAt\":\"2025-05-25T07:19:26.899Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:19:26.899Z\"}},{\"id\":\"\",\"content\":\"这是一个用于测试的评论内容。希望通过此评论验证表单的提交和数据保存功能是否正常，期待能在页面上正确呈现此信息。\",\"CreatedAt\":\"2025-05-25T07:19:46.339Z\",\"author\":{\"nickname\":\"huang\",\"email\":\"1045225639@qq.com\",\"vehicleid\":\"\",\"profile_pic_url\":\"\",\"created_at\":\"2025-05-25T07:19:46.339Z\"}}],\"authorid\":8,\"CreatedAt\":\"2025-05-24T14:35:06.085Z\"}\n",
+      "jsonData": {
+        "id": "eQJ9QN8Nv3xo2dX2E5xMr",
+        "title": "My First Blog Post",
+        "content": "This is the content of my first blog post. I am excited to share my thoughts and experiences with everyone. Stay tuned for more updates!",
+        "author": {
+          "nickname": "huang",
+          "email": "1045225639@qq.com",
+          "vehicleid": "",
+          "profile_pic_url": "",
+          "created_at": "2025-05-24T14:35:06.085Z"
+        },
+        "comments": [
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证文本域的输入功能。可以包含多行内容，测试是否能够正确处理长文本。",
+            "CreatedAt": "2025-05-25T07:18:15.51Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:18:15.51Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一条测试评论，用于验证表单提交功能。希望能够正常保存并显示。",
+            "CreatedAt": "2025-05-25T07:18:31.554Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:18:31.554Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于检查表单的提交和处理功能。期待评论能够正确保存并在页面上显示。",
+            "CreatedAt": "2025-05-25T07:18:47.285Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:18:47.285Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于确认表单的提交功能是否正常。期待所有信息能够顺利保存并在页面上正确显示。",
+            "CreatedAt": "2025-05-25T07:19:04.512Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:19:04.512Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个测试评论，用于验证表单提交功能的有效性。我们期待所有信息能够顺利保存并在页面上正确显示，以确保用户体验的流畅性。",
+            "CreatedAt": "2025-05-25T07:19:26.899Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:19:26.899Z"
+            }
+          },
+          {
+            "id": "",
+            "content": "这是一个用于测试的评论内容。希望通过此评论验证表单的提交和数据保存功能是否正常，期待能在页面上正确呈现此信息。",
+            "CreatedAt": "2025-05-25T07:19:46.339Z",
+            "author": {
+              "nickname": "huang",
+              "email": "1045225639@qq.com",
+              "vehicleid": "",
+              "profile_pic_url": "",
+              "created_at": "2025-05-25T07:19:46.339Z"
+            }
+          }
+        ],
+        "authorid": 8,
+        "CreatedAt": "2025-05-24T14:35:06.085Z"
+      }
+    }
+  ]
+}
