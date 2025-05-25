@@ -13,7 +13,7 @@
             ],
             "program": "/Users/tlif3./Desktop/all/zju_research/llm_auth/BolaScan_v2/index.js",
             "args": [
-                "--url", "http://10.15.196.160:8888",
+                "--url", "http://10.15.196.160:8888/post?post_id=xRkZxKYmZ85rpEzYdW96e5",
                 "--username", "1045225639@qq.com",
                 "--password", "As119801222@",
                 "--output", "./results_v1",

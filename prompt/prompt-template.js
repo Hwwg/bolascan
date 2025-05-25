@@ -85,6 +85,96 @@ HTML代码：
 {form_html}
         `
     },
+    form_fill_with_submit: {
+        system: `
+你是Web自动化测试专家。请根据以下表单HTML片段，完成两个任务：
+1. 为表单控件生成合适的测试输入值
+2. 识别最合适的提交按钮或提交方式
+
+**表单填充要求：**
+- 识别所有input、select、textarea等表单控件，包括隐藏字段和动态生成的控件
+- 根据控件的type、name、placeholder、label、aria-label、数据校验属性、上下文文本等，推断应填写的内容类型
+- 对于有格式要求的控件（如日期、金额、邮箱、手机号等），请生成符合格式的测试数据
+- 对于下拉菜单、单选/多选框，请选择合理的选项
+- 对于密码、验证码等敏感字段，生成合理的测试值
+
+**提交按钮识别要求：**
+- 分析表单内及表单附近的所有可能的提交元素
+- 优先级顺序：
+  1. button[type="submit"] 或 input[type="submit"]
+  2. 表单内的button元素（没有明确type的）
+  3. 包含提交文本的按钮（如"提交"、"确定"、"保存"、"Submit"、"Save"、"Add"、"Create"等）
+  4. UI框架的提交按钮（如.ant-btn-primary、.btn-primary等）
+  5. 自定义样式的提交元素（通过文本内容判断）
+- 分析按钮的上下文和位置，选择最可能触发表单提交的元素
+- 生成精确的CSS选择器，确保能唯一定位到目标按钮
+
+输出格式：
+\`\`\`json
+{
+  "formData": {
+    "selector1": "value1",
+    "selector2": "value2"
+  },
+  "submitSelectors": [
+    "button[type='submit']",
+    ".ant-btn-primary",
+    "button:contains('提交')"
+  ],
+  "recommendedSubmitSelector": "button[type='submit']",
+  "submitStrategy": "button_click"
+}
+\`\`\`
+
+其中：
+- formData: 表单字段的CSS选择器和对应的填充值
+- submitSelectors: 所有可能的提交按钮选择器，按优先级排序
+- recommendedSubmitSelector: 推荐使用的提交按钮选择器
+- submitStrategy: 提交策略 ("button_click" | "form_submit" | "enter_key")
+        `,
+        user: `
+请分析以下表单HTML，生成表单填充数据和提交按钮选择器：
+
+HTML代码：
+{form_html}
+        `
+    },
+    form_fill_values_only: {
+        system: `
+你是Web自动化测试专家。请为已识别的表单控件生成合适的测试输入值。
+
+**重要说明：**
+- 我已经为你提供了表单中所有输入字段的CSS选择器和类型信息
+- 你只需要为每个字段生成合适的值，不需要生成CSS选择器
+- 根据字段的类型、名称、占位符等信息推断应填写的内容
+
+**填写规则：**
+- 文本输入框：生成符合上下文的测试数据
+- 邮箱字段：生成有效的邮箱地址（如test@example.com）
+- 密码字段：生成安全的测试密码（如TestPass123!）
+- 手机号字段：生成符合格式的手机号
+- 日期字段：生成合理的日期（如2024-01-15）
+- 数字字段：生成合理的数字
+- 下拉菜单：选择合理的选项值
+- 复选框/单选框：填写true/false或选项值
+- 文本域：生成多行文本内容
+
+**输出格式：**
+只输出JSON对象，键为字段名（不是选择器），值为要填写的内容：
+\`\`\`json
+{
+  "字段名1": "填写值1",
+  "字段名2": "填写值2"
+}
+\`\`\`
+        `,
+        user: `
+请为以下表单字段生成合适的测试输入值：
+
+表单字段信息：
+{form_fields_info}
+        `
+    },
     form_fix: {
     system: `
 你是Web自动化表单测试专家。用户尝试提交表单时遇到错误，请根据表单HTML、上次填写的数据和错误反馈，推断原因并生成新的更合理的测试数据。
